@@ -1,0 +1,1227 @@
+[
+  {
+    "value": "100",
+    "eng": "Gachon University Medical Campus(School)",
+    "kor": "가천대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "105",
+    "eng": "Gachon University Gil Medical Center",
+    "kor": "가천의대 길병원"
+  },
+  {
+    "value": "107",
+    "eng": "Catholic Kwandong University International St. Mary's Hospital",
+    "kor": "가톨릭관동대학교 국제성모병원"
+  },
+  {
+    "value": "110",
+    "eng": "The Catholic University of Korea, Bucheon St. Mary's Hospital",
+    "kor": "가톨릭대학교 부천성모병원"
+  },
+  {
+    "value": "115",
+    "eng": "School of Medicine, The Catholic University of Korea",
+    "kor": "가톨릭대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "120",
+    "eng": "The Catholic University of Korea, Daejeon St. Mary's Hospital",
+    "kor": "가톨릭의대 대전성모병원"
+  },
+  {
+    "value": "125",
+    "eng": "The Catholic University of Korea, Seoul St. Mary's Hospital",
+    "kor": "가톨릭의대 서울성모병원"
+  },
+  {
+    "value": "130",
+    "eng": "The Catholic University of Korea, Eunpyeong St. Mary's Hospital",
+    "kor": "가톨릭의대 은평성모병원"
+  },
+  {
+    "value": "135",
+    "eng": "The Catholic University of Korea, St. Vincent's Hospital",
+    "kor": "가톨릭의대 성빈센트병원"
+  },
+  {
+    "value": "140",
+    "eng": "The Catholic University of Korea, Yeouido St. Mary's Hospital",
+    "kor": "가톨릭의대 여의도 성모병원"
+  },
+  {
+    "value": "145",
+    "eng": "The Catholic University of Korea, Uijeongbu St. Mary's Hospital",
+    "kor": "가톨릭의대 의정부성모병원"
+  },
+  {
+    "value": "150",
+    "eng": "The Catholic University of Korea, Incheon St. Mary's Hospital",
+    "kor": "가톨릭의대 인천성모병원"
+  },
+  {
+    "value": "153",
+    "eng": "Miz Medi Hospital",
+    "kor": "강남 미즈메디병원"
+  },
+  {
+    "value": "155",
+    "eng": "Eulji University Gangnam Eulji Hospital",
+    "kor": "강남을지병원"
+  },
+  {
+    "value": "160",
+    "eng": "CHA Gangnam Medical Center, CHA University",
+    "kor": "강남차병원"
+  },
+  {
+    "value": "165",
+    "eng": "Kyung Hee University Hospital at Gangdong",
+    "kor": "강동경희대학교병원"
+  },
+  {
+    "value": "170",
+    "eng": "Dong-in Medical Center",
+    "kor": "강릉동인병원"
+  },
+  {
+    "value": "175",
+    "eng": "Gangseo MizMedi Hospotal",
+    "kor": "강서미즈메디병원"
+  },
+  {
+    "value": "180",
+    "eng": "Kangwon National University School of Medicine",
+    "kor": "강원대학교 의과대학"
+  },
+  {
+    "value": "183",
+    "eng": "Kangwon National University School of Medicine",
+    "kor": "강원대학교 의학전문대학원"
+  },
+  {
+    "value": "185",
+    "eng": "Kangwon National University Hospital",
+    "kor": "강원대학교병원"
+  },
+  {
+    "value": "190",
+    "eng": "Konkuk University School of Medicine",
+    "kor": "건국대학교 의학전문대학원"
+  },
+  {
+    "value": "195",
+    "eng": "Konkuk University Medical Center",
+    "kor": "건국대학교병원"
+  },
+  {
+    "value": "200",
+    "eng": "Konkuk University Chungju Hospital",
+    "kor": "건국의대 충주병원"
+  },
+  {
+    "value": "205",
+    "eng": "College of Medicine, Konyang University",
+    "kor": "건양대학교 의과대학"
+  },
+  {
+    "value": "210",
+    "eng": "Konyang University Hospital",
+    "kor": "건양대학교병원"
+  },
+  {
+    "value": "212",
+    "eng": "Gyeonggi Provincial Medical Center Suwon Hospital",
+    "kor": "경기도의료원 수원병원"
+  },
+  {
+    "value": "213",
+    "eng": "Gyeonggi Provincial Medical Center Paju Hospital",
+    "kor": "경기도의료원 파주병원"
+  },
+  {
+    "value": "214",
+    "eng": "Gyeongnam Regional Military Manpower Office",
+    "kor": "경남지방병무청"
+  },
+  {
+    "value": "215",
+    "eng": "Kyungpook National University School of Medicine",
+    "kor": "경북대학교 의학전문대학원"
+  },
+  {
+    "value": "220",
+    "eng": "Kyungpook National University Hospital",
+    "kor": "경북대학교병원"
+  },
+  {
+    "value": "225",
+    "eng": "Gyeongsang National University",
+    "kor": "경상대학교 의학전문대학원"
+  },
+  {
+    "value": "230",
+    "eng": "Gyeongsang National University Hospital",
+    "kor": "경상대학교병원"
+  },
+  {
+    "value": "235",
+    "eng": "Kyung Hee University School of Medicine",
+    "kor": "경희대학교 의학전문대학원·의과대학"
+  },
+  {
+    "value": "240",
+    "eng": "Kyung Hee University Medical Center",
+    "kor": "경희대학교병원"
+  },
+  {
+    "value": "245",
+    "eng": "Keimyung University School of Medicine",
+    "kor": "계명대학교 의과대학"
+  },
+  {
+    "value": "250",
+    "eng": "Keimyung University Kyungju Dongsan Hospital",
+    "kor": "계명의대 경주동산병원"
+  },
+  {
+    "value": "255",
+    "eng": "Keimyung University Dongsan Medical Center",
+    "kor": "계명의대 동산의료원"
+  },
+  {
+    "value": "260",
+    "eng": "Keyo Hospital",
+    "kor": "계요병원"
+  },
+  {
+    "value": "265",
+    "eng": "Korea University College of Medicine",
+    "kor": "고려대학교 의과대학"
+  },
+  {
+    "value": "270",
+    "eng": "Korea University School of Medicine",
+    "kor": "고려대학교 의학전문대학원"
+  },
+  {
+    "value": "275",
+    "eng": "Korea University Guro Hospital",
+    "kor": "고려의대 구로병원"
+  },
+  {
+    "value": "280",
+    "eng": "Korea University Ansan Hospital",
+    "kor": "고려의대 안산병원"
+  },
+  {
+    "value": "285",
+    "eng": "Korea University Anam Hospital",
+    "kor": "고려의대 안암병원"
+  },
+  {
+    "value": "290",
+    "eng": "Kosin University College of Medicine",
+    "kor": "고신대학교 의과대학"
+  },
+  {
+    "value": "295",
+    "eng": "Kosin University Gospel Hospital",
+    "kor": "고신의대 복음병원"
+  },
+  {
+    "value": "297",
+    "eng": "Gongju Medical Center",
+    "kor": "공주의료원"
+  },
+  {
+    "value": "298",
+    "eng": "Kwak's Hospital",
+    "kor": "곽병원"
+  },
+  {
+    "value": "300",
+    "eng": "Kwandong University College of Medicine",
+    "kor": "관동대학교 의과대학"
+  },
+  {
+    "value": "305",
+    "eng": "Myongji Hospital",
+    "kor": "서남의대 명지병원"
+  },
+  {
+    "value": "310",
+    "eng": "Sungae Hospital",
+    "kor": "광명성애병원"
+  },
+  {
+    "value": "315",
+    "eng": "Kwangju Christian Hospital",
+    "kor": "광주기독병원"
+  },
+  {
+    "value": "317",
+    "eng": "Gwangju Veterans Hospital",
+    "kor": "광주보훈병원"
+  },
+  {
+    "value": "318",
+    "eng": "Gwangju-Jeonnam Regional Military Manpower Office",
+    "kor": "광주전남지방병무청"
+  },
+  {
+    "value": "320",
+    "eng": "Gumi Gang Dong Hospital",
+    "kor": "구미강동병원"
+  },
+  {
+    "value": "325",
+    "eng": "Gumi CHA General Hospital",
+    "kor": "구미차병원"
+  },
+  {
+    "value": "327",
+    "eng": "Korean Armed Forces Gangneung Hospital",
+    "kor": "국군강릉병원"
+  },
+  {
+    "value": "328",
+    "eng": "Korean Armed Forces Daegu Hospital",
+    "kor": "국군대구병원"
+  },
+  {
+    "value": "330",
+    "eng": "Korean Armed Forces Capital Hospital",
+    "kor": "국군수도병원"
+  },
+  {
+    "value": "335",
+    "eng": "Korean Armed Forces Medical Command",
+    "kor": "국군의무사령부"
+  },
+  {
+    "value": "337",
+    "eng": "Korean Armed Forces Ildong Hospital",
+    "kor": "국군일동병원"
+  },
+  {
+    "value": "340",
+    "eng": "National Police Hospital",
+    "kor": "국립경찰병원"
+  },
+  {
+    "value": "345",
+    "eng": "Seoul National Hospital",
+    "kor": "국립서울정신병원"
+  },
+  {
+    "value": "350",
+    "eng": "National Cancer Center",
+    "kor": "국립암센터"
+  },
+  {
+    "value": "355",
+    "eng": "National Medical Center",
+    "kor": "국립중앙의료원"
+  },
+  {
+    "value": "360",
+    "eng": "National Health Insurance Service Ilsan Hospital",
+    "kor": "국민건강보험공단 일산병원"
+  },
+  {
+    "value": "362",
+    "eng": "Gunsan Medical Center",
+    "kor": "군산의료원"
+  },
+  {
+    "value": "365",
+    "eng": "Dankook University Medical College",
+    "kor": "단국대학교 의과대학"
+  },
+  {
+    "value": "370",
+    "eng": "Dankook University Hospital",
+    "kor": "단국대학교병원"
+  },
+  {
+    "value": "375",
+    "eng": "Catholic University of Daegu School of Medicine",
+    "kor": "대구가톨릭대학교 의과대학"
+  },
+  {
+    "value": "380",
+    "eng": "Daegu Catholic University Medical Center",
+    "kor": "대구가톨릭대학교병원"
+  },
+  {
+    "value": "382",
+    "eng": "Daegu Veterans Hospital",
+    "kor": "대구보훈병원"
+  },
+  {
+    "value": "383",
+    "eng": "Daegu Medical Center",
+    "kor": "대구의료원"
+  },
+  {
+    "value": "385",
+    "eng": "Daegu CHA Women's Hospital",
+    "kor": "대구차여성병원"
+  },
+  {
+    "value": "390",
+    "eng": "Daegu Fatima Hospital",
+    "kor": "대구파티마병원"
+  },
+  {
+    "value": "395",
+    "eng": "Daedong Hospital",
+    "kor": "대동병원"
+  },
+  {
+    "value": "400",
+    "eng": "Daerim St. Mary's Hospital",
+    "kor": "대림성모병원"
+  },
+  {
+    "value": "402",
+    "eng": "Daejeon Veterans Hospital",
+    "kor": "대전보훈병원"
+  },
+  {
+    "value": "405",
+    "eng": "Daejeon Sun Hospital",
+    "kor": "대전선병원"
+  },
+  {
+    "value": "407",
+    "eng": "Daejeon-Chungnam Regional Military Manpower Office",
+    "kor": "대전충남지방병무청"
+  },
+  {
+    "value": "410",
+    "eng": "Dongguk University College of Medicine",
+    "kor": "동국대학교 의과대학"
+  },
+  {
+    "value": "415",
+    "eng": "Dongguk University Ilsan Hospital",
+    "kor": "동국대학교 일산병원"
+  },
+  {
+    "value": "420",
+    "eng": "Dongguk University Gyeongju Hospital",
+    "kor": "동국의대 경주병원"
+  },
+  {
+    "value": "423",
+    "eng": "Dongnam Inst. Of Radiological & Medical Sciences",
+    "kor": "동남권원자력의학원"
+  },
+  {
+    "value": "425",
+    "eng": "Dong Rae Bong Seng Hospital",
+    "kor": "동래봉생병원"
+  },
+  {
+    "value": "427",
+    "eng": "Dongsuwon General Hospital",
+    "kor": "동수원병원"
+  },
+  {
+    "value": "430",
+    "eng": "Dong-A University, College of Medicine",
+    "kor": "동아대학교 의과대학"
+  },
+  {
+    "value": "435",
+    "eng": "Dong-A University Hospital",
+    "kor": "동아대학교병원"
+  },
+  {
+    "value": "440",
+    "eng": "Dong-eui Medical Center",
+    "kor": "동의의료원"
+  },
+  {
+    "value": "442",
+    "eng": "Masan Medical Center",
+    "kor": "마산의료원"
+  },
+  {
+    "value": "443",
+    "eng": "Mokpocity Medical Center",
+    "kor": "목포의료원"
+  },
+  {
+    "value": "445",
+    "eng": "Jung-Ang Hospital",
+    "kor": "목포중앙병원"
+  },
+  {
+    "value": "446",
+    "eng": "Bogang Hospital",
+    "kor": "보강병원"
+  },
+  {
+    "value": "447",
+    "eng": "Bon seng Hospital",
+    "kor": "봉생병원"
+  },
+  {
+    "value": "450",
+    "eng": "Busan National University School of Medicine",
+    "kor": "부산대학교 의학전문대학원"
+  },
+  {
+    "value": "455",
+    "eng": "Busan National University Hospital",
+    "kor": "부산대학교병원"
+  },
+  {
+    "value": "460",
+    "eng": "Maryknoll Medical Center",
+    "kor": "부산메리놀병원"
+  },
+  {
+    "value": "465",
+    "eng": "Busan St. Mary's Medical Center",
+    "kor": "부산성모병원"
+  },
+  {
+    "value": "470",
+    "eng": "Busan Adventist Hospital",
+    "kor": "삼육부산병원"
+  },
+  {
+    "value": "473",
+    "eng": "Busan Regional Military Manpower Office",
+    "kor": "부산지방병무청"
+  },
+  {
+    "value": "475",
+    "eng": "Sejong General Hospital",
+    "kor": "부천세종병원"
+  },
+  {
+    "value": "480",
+    "eng": "Seoul National University Bundang Hospital",
+    "kor": "분당서울대학교병원"
+  },
+  {
+    "value": "485",
+    "eng": "Bundang Jesaeng General Hospital",
+    "kor": "분당제생병원"
+  },
+  {
+    "value": "490",
+    "eng": "Bundang CHA General Hospital",
+    "kor": "분당차병원"
+  },
+  {
+    "value": "493",
+    "eng": "Busan Adventist Hospital",
+    "kor": "삼육부산병원"
+  },
+  {
+    "value": "495",
+    "eng": "Sahmyook Medical Center",
+    "kor": "삼육서울병원"
+  },
+  {
+    "value": "497",
+    "eng": "Samcheok Medical Center",
+    "kor": "삼척의료원"
+  },
+  {
+    "value": "498",
+    "eng": "Seogwipo Medical Center",
+    "kor": "서귀포의료원"
+  },
+  {
+    "value": "500",
+    "eng": "Seonam University College of Medicine",
+    "kor": "서남대학교 의과대학"
+  },
+  {
+    "value": "505",
+    "eng": "Seonam University Hospital",
+    "kor": "서남대학교병원"
+  },
+  {
+    "value": "510",
+    "eng": "Seoul Medical Center",
+    "kor": "서울 의료원"
+  },
+  {
+    "value": "515",
+    "eng": "Seoul National University College of Medicine",
+    "kor": "서울대학교 의과대학"
+  },
+  {
+    "value": "520",
+    "eng": "Seoul National University Hospital",
+    "kor": "서울대학교병원"
+  },
+  {
+    "value": "525",
+    "eng": "Seoul Veterans Hospital",
+    "kor": "서울보훈병원"
+  },
+  {
+    "value": "530",
+    "eng": "Seoul Sungae Hospital",
+    "kor": "서울성애병원"
+  },
+  {
+    "value": "532",
+    "eng": "Seoul SongDo Hospital",
+    "kor": "서울송도병원"
+  },
+  {
+    "value": "535",
+    "eng": "Eulji General Hospital",
+    "kor": "서울을지병원"
+  },
+  {
+    "value": "540",
+    "eng": "Seoul Red Cross Hospital",
+    "kor": "서울적십자병원"
+  },
+  {
+    "value": "543",
+    "eng": "Seoul Regional Military Manpower Office",
+    "kor": "서울지방병무청"
+  },
+  {
+    "value": "545",
+    "eng": "SMG-SNU Boramae Medical Center",
+    "kor": "서울특별시보라매병원"
+  },
+  {
+    "value": "547",
+    "eng": "Seocheon County Health Center",
+    "kor": "서천군보건소"
+  },
+  {
+    "value": "550",
+    "eng": "St. Carollo General Hospital",
+    "kor": "성가롤로병원"
+  },
+  {
+    "value": "555",
+    "eng": "Sungkyunkwan University School of Medicine",
+    "kor": "성균관대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "560",
+    "eng": "Kangbuk Samsung Hospital",
+    "kor": "성균관의대 강북삼성병원"
+  },
+  {
+    "value": "565",
+    "eng": "Samsung Medical Center",
+    "kor": "성균관의대 삼성서울병원"
+  },
+  {
+    "value": "570",
+    "eng": "Samsung Changwon Hospital",
+    "kor": "성균관의대 삼성창원병원"
+  },
+  {
+    "value": "573",
+    "eng": "Seongnam Central Hospital",
+    "kor": "성남중앙병원"
+  },
+  {
+    "value": "575",
+    "eng": "Soonchunhyang University College of Medicine",
+    "kor": "순천향대학교 의과대학(부천캠퍼스)"
+  },
+  {
+    "value": "576",
+    "eng": "Soonchunhyang University College of Medicine",
+    "kor": "순천향대학교 의과대학(서울캠퍼스)"
+  },
+  {
+    "value": "577",
+    "eng": "Soonchunhyang University College of Medicine",
+    "kor": "순천향대학교 의과대학(천안캠퍼스)"
+  },
+  {
+    "value": "580",
+    "eng": "Soonchunhyang University Gumi Hospital",
+    "kor": "순천향의대 구미병원"
+  },
+  {
+    "value": "585",
+    "eng": "Soonchunhyang University Bucheon Hospital",
+    "kor": "순천향의대 부천병원"
+  },
+  {
+    "value": "590",
+    "eng": "Soonchunhyang University Seoul Hospital",
+    "kor": "순천향의대 서울병원"
+  },
+  {
+    "value": "595",
+    "eng": "Soonchunhyang University Cheonan Hospital",
+    "kor": "순천향의대 천안병원"
+  },
+  {
+    "value": "597",
+    "eng": "Shinchon Yonsei Hospital",
+    "kor": "신촌연세병원"
+  },
+  {
+    "value": "600",
+    "eng": "Ajou University School of Medicine",
+    "kor": "아주대학교 의과대학"
+  },
+  {
+    "value": "605",
+    "eng": "Ajou University Graduate School of Medicine",
+    "kor": "아주대학교 의학전문대학원"
+  },
+  {
+    "value": "610",
+    "eng": "Ajou University Hospital",
+    "kor": "아주대학교병원"
+  },
+  {
+    "value": "615",
+    "eng": "Andong Medical Group Hospital",
+    "kor": "안동병원"
+  },
+  {
+    "value": "617",
+    "eng": "Sam Hospital",
+    "kor": "안양샘병원"
+  },
+  {
+    "value": "620",
+    "eng": "Pusan National University Yangsan Hospital",
+    "kor": "양산부산대학교병원"
+  },
+  {
+    "value": "623",
+    "eng": "H Plus Yangji Hospital",
+    "kor": "에이치플러스양지병원"
+  },
+  {
+    "value": "625",
+    "eng": "Chonnam Hospital",
+    "kor": "여수전남병원"
+  },
+  {
+    "value": "630",
+    "eng": "Yonsei University Wonju College of Medicine",
+    "kor": "연세대학교 원주의과대학"
+  },
+  {
+    "value": "635",
+    "eng": "Yonsei University College of Medicine",
+    "kor": "연세대학교 의과대학"
+  },
+  {
+    "value": "640",
+    "eng": "Gangnam Severance Hospital",
+    "kor": "연세의대 강남세브란스병원"
+  },
+  {
+    "value": "645",
+    "eng": "Severance Hospital",
+    "kor": "연세의대 세브란스병원"
+  },
+  {
+    "value": "650",
+    "eng": "Yongin Severance Hospital",
+    "kor": "연세의대 용인세브란스병원"
+  },
+  {
+    "value": "655",
+    "eng": "Wonju Severance Christian Hospital",
+    "kor": "연세의대 원주세브란스기독병원"
+  },
+  {
+    "value": "657",
+    "eng": "Yeong Gwang Christian Hospital",
+    "kor": "영광기독병원"
+  },
+  {
+    "value": "658",
+    "eng": "Yeong Gwang Medical Center",
+    "kor": "영광종합병원"
+  },
+  {
+    "value": "660",
+    "eng": "Yeungnam University College of Medicine",
+    "kor": "영남대학교 의과대학"
+  },
+  {
+    "value": "665",
+    "eng": "Yeungnam University Medical Center",
+    "kor": "영남대학교병원"
+  },
+  {
+    "value": "670",
+    "eng": "Yeungnam University Yeongcheon Hospital",
+    "kor": "영남의대 영천병원"
+  },
+  {
+    "value": "675",
+    "eng": "Wallace Memorial Baptist Hospital",
+    "kor": "왈레스기념 침례병원"
+  },
+  {
+    "value": "680",
+    "eng": "Young-in Mental Hospital",
+    "kor": "용인정신병원"
+  },
+  {
+    "value": "682",
+    "eng": "Busan Wooridul Spine Hospital",
+    "kor": "우리들병원 부산"
+  },
+  {
+    "value": "683",
+    "eng": "Cheongdam Wooridul Spine Hospital",
+    "kor": "우리들병원 서울 강남"
+  },
+  {
+    "value": "685",
+    "eng": "University of Ulsan College of Medicine",
+    "kor": "울산대학교 의과대학"
+  },
+  {
+    "value": "690",
+    "eng": "Ulsan University Hospital",
+    "kor": "울산대학교병원"
+  },
+  {
+    "value": "695",
+    "eng": "Dongkang Medical Center",
+    "kor": "울산동강병원"
+  },
+  {
+    "value": "700",
+    "eng": "GangNeung Asan Hospital",
+    "kor": "울산의대 강릉아산병원"
+  },
+  {
+    "value": "705",
+    "eng": "Asan Medical Center, University of Ulsan College of Medicine",
+    "kor": "울산의대 서울아산병원"
+  },
+  {
+    "value": "707",
+    "eng": "Uljingun Medical Center",
+    "kor": "울진군의료원"
+  },
+  {
+    "value": "710",
+    "eng": "Wonkwang University School of Medicine",
+    "kor": "원광대학교 의과대학"
+  },
+  {
+    "value": "711",
+    "eng": "Wonkwang University Sanbon Hospital",
+    "kor": "원광대학교 의과대학 산본병원"
+  },
+  {
+    "value": "715",
+    "eng": "Wonkwang University Hospital",
+    "kor": "원광대학교병원"
+  },
+  {
+    "value": "720",
+    "eng": "Korea Cancer Center Hospital",
+    "kor": "원자력병원"
+  },
+  {
+    "value": "722",
+    "eng": "Wonju Medical Center",
+    "kor": "원주의료원"
+  },
+  {
+    "value": "723",
+    "eng": "Yuseong Sun Hospital",
+    "kor": "유성선병원"
+  },
+  {
+    "value": "725",
+    "eng": "Eulji University School of Medicine",
+    "kor": "을지대학교 의과대학"
+  },
+  {
+    "value": "730",
+    "eng": "Eulji University Hospital",
+    "kor": "을지대학병원"
+  },
+  {
+    "value": "735",
+    "eng": "Nowon Eulji Medical Center, Eulji University",
+    "kor": "을지대학교 을지병원"
+  },
+  {
+    "value": "740",
+    "eng": "Ewha Womans University School of Medicine",
+    "kor": "이화여자대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "745",
+    "eng": "Ewha Womans University Mokdong Hospital",
+    "kor": "이화여자대학교 의과대학부속 목동병원"
+  },
+  {
+    "value": "750",
+    "eng": "Ewha Womans University Medical Center",
+    "kor": "이화여자대학교 의료원"
+  },
+  {
+    "value": "753",
+    "eng": "Iksan Health Center",
+    "kor": "익산시보건소"
+  },
+  {
+    "value": "755",
+    "eng": "Inje University Busan Paik Hospital",
+    "kor": "인제대학교 부산백병원"
+  },
+  {
+    "value": "760",
+    "eng": "Inje University Sanggye Paik Hospital",
+    "kor": "인제대학교 상계백병원"
+  },
+  {
+    "value": "765",
+    "eng": "Inje University Seoul Paik Hospital",
+    "kor": "인제대학교 서울백병원"
+  },
+  {
+    "value": "770",
+    "eng": "Inje University College of Medicine",
+    "kor": "인제대학교 의과대학"
+  },
+  {
+    "value": "775",
+    "eng": "Inje University Ilsan Paik Hospital",
+    "kor": "인제대학교 일산백병원"
+  },
+  {
+    "value": "780",
+    "eng": "Inje University Haeundae Paik Hospital",
+    "kor": "인제대학교 해운대백병원"
+  },
+  {
+    "value": "781",
+    "eng": "Incheon Medical Center",
+    "kor": "인천광역시의료원"
+  },
+  {
+    "value": "782",
+    "eng": "Incheonsarang-hospital",
+    "kor": "인천사랑병원"
+  },
+  {
+    "value": "783",
+    "eng": "Incheon Red Cross Hospital",
+    "kor": "인천적십자병원"
+  },
+  {
+    "value": "785",
+    "eng": "Inha University Hospital",
+    "kor": "인하대병원"
+  },
+  {
+    "value": "790",
+    "eng": "Inha University School of Medicine",
+    "kor": "인하대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "795",
+    "eng": "Ilsin Christian Hospital",
+    "kor": "일신기독병원"
+  },
+  {
+    "value": "800",
+    "eng": "Chonnam National University Medical School",
+    "kor": "전남대학교 의과대학·의학전문대학원"
+  },
+  {
+    "value": "805",
+    "eng": "Chonnam National University Hospital",
+    "kor": "전남대학교병원"
+  },
+  {
+    "value": "810",
+    "eng": "Chonbuk National University Medical School",
+    "kor": "전북대학교 의학전문대학원"
+  },
+  {
+    "value": "815",
+    "eng": "Chonbuk National University Hospital",
+    "kor": "전북대학교병원"
+  },
+  {
+    "value": "820",
+    "eng": "Presbyterian Medical Center",
+    "kor": "전주예수병원"
+  },
+  {
+    "value": "825",
+    "eng": "Cheil General Hospital, Dankook University College of Medicine",
+    "kor": "제일병원"
+  },
+  {
+    "value": "830",
+    "eng": "Jeju National University College of Medicine",
+    "kor": "제주대학교 의과대학"
+  },
+  {
+    "value": "835",
+    "eng": "Jeju National University School of Medicine",
+    "kor": "제주대학교 의학전문대학원"
+  },
+  {
+    "value": "840",
+    "eng": "Jeju National University Hospital",
+    "kor": "제주대학교병원"
+  },
+  {
+    "value": "843",
+    "eng": "Cheju Halla General Hospital",
+    "kor": "제주한라병원"
+  },
+  {
+    "value": "845",
+    "eng": "College of Medicine, Chosun University",
+    "kor": "조선대학교 의과대학"
+  },
+  {
+    "value": "850",
+    "eng": "Chosun University Hospital",
+    "kor": "조선대학교병원"
+  },
+  {
+    "value": "853",
+    "eng": "Good GangAn Hospital",
+    "kor": "좋은강안병원"
+  },
+  {
+    "value": "855",
+    "eng": "Good Moonhwa Hospital",
+    "kor": "좋은문화병원"
+  },
+  {
+    "value": "860",
+    "eng": "Chung-Ang University College of Medicine",
+    "kor": "중앙대학교 의과대학"
+  },
+  {
+    "value": "865",
+    "eng": "Chung-Ang University School of Medicine",
+    "kor": "중앙대학교 의학전문대학원"
+  },
+  {
+    "value": "870",
+    "eng": "Chung-Ang University Hospital",
+    "kor": "중앙대학교병원"
+  },
+  {
+    "value": "875",
+    "eng": "Busan Medical Center",
+    "kor": "지방공사 부산의료원"
+  },
+  {
+    "value": "877",
+    "eng": "Jinju Korea Hospital",
+    "kor": "진주고려병원"
+  },
+  {
+    "value": "878",
+    "eng": "Kangnam CHA Medical Center",
+    "kor": "차움의원"
+  },
+  {
+    "value": "880",
+    "eng": "CHA University",
+    "kor": "차의과학대학교"
+  },
+  {
+    "value": "882",
+    "eng": "Gyeongsang National University Changwon Hospital",
+    "kor": "창원경상대학교병원"
+  },
+  {
+    "value": "885",
+    "eng": "Changwon Fatima Hospital",
+    "kor": "창원파티마병원"
+  },
+  {
+    "value": "887",
+    "eng": "Cheonan Medical Center",
+    "kor": "천안의료원"
+  },
+  {
+    "value": "890",
+    "eng": "Cheongju St. Mary's Hospital",
+    "kor": "청주성모병원"
+  },
+  {
+    "value": "893",
+    "eng": "Cheong Ju Medical Center",
+    "kor": "청주의료원"
+  },
+  {
+    "value": "895",
+    "eng": "Chungnam National University School of Medicine",
+    "kor": "충남대학교 의학전문대학원"
+  },
+  {
+    "value": "900",
+    "eng": "Chungnam National University Hospital",
+    "kor": "충남대학교병원"
+  },
+  {
+    "value": "905",
+    "eng": "Chungbuk National University College of Medicine",
+    "kor": "충북대학교 의과대학"
+  },
+  {
+    "value": "910",
+    "eng": "Chungbuk National University School of Medicine",
+    "kor": "충북대학교 의학전문대학원"
+  },
+  {
+    "value": "915",
+    "eng": "Chungbuk National University Hospital",
+    "kor": "충북대학교병원"
+  },
+  {
+    "value": "917",
+    "eng": "Chungju Medical Center",
+    "kor": "충주의료원"
+  },
+  {
+    "value": "918",
+    "eng": "Kyungpook National University Chilgok Hospital",
+    "kor": "칠곡경북대학교병원"
+  },
+  {
+    "value": "920",
+    "eng": "Pohang St. Mary's Hospital",
+    "kor": "포항성모병원"
+  },
+  {
+    "value": "921",
+    "eng": "Pohang Bukgu Health Center",
+    "kor": "포항시북구보건소"
+  },
+  {
+    "value": "922",
+    "eng": "Pohang Medical Center",
+    "kor": "포항의료원"
+  },
+  {
+    "value": "923",
+    "eng": "Hana General Hospital",
+    "kor": "하나병원"
+  },
+  {
+    "value": "925",
+    "eng": "Kangnam Sacred Heart Hospital",
+    "kor": "한림대학교 강남성심병원"
+  },
+  {
+    "value": "930",
+    "eng": "Kangdong Sacred Heart Hospital",
+    "kor": "한림대학교 강동성심병원"
+  },
+  {
+    "value": "935",
+    "eng": "Hallym University Dongtan Sacred Heart Hospital",
+    "kor": "한림대학교 동탄성심병원"
+  },
+  {
+    "value": "940",
+    "eng": "Hallym University Sacred Heart Hospital",
+    "kor": "한림대학교 성심병원"
+  },
+  {
+    "value": "945",
+    "eng": "Hallym University College of Medicine",
+    "kor": "한림대학교 의과대학"
+  },
+  {
+    "value": "950",
+    "eng": "Chuncheon Sacred Heart Hospital",
+    "kor": "한림대학교 춘천성심병원"
+  },
+  {
+    "value": "955",
+    "eng": "Hangang Sacred Heart Hospital",
+    "kor": "한림대학교 한강성심병원"
+  },
+  {
+    "value": "960",
+    "eng": "Hanyang University College of Medicine",
+    "kor": "한양대학교 의과대학"
+  },
+  {
+    "value": "965",
+    "eng": "Hanyang University School of Medicine",
+    "kor": "한양대학교 의학전문대학원"
+  },
+  {
+    "value": "970",
+    "eng": "Hanyang University Medical Center",
+    "kor": "한양대학교병원"
+  },
+  {
+    "value": "975",
+    "eng": "Hanyang University Guri Hospital",
+    "kor": "한양의대 구리병원"
+  },
+  {
+    "value": "978",
+    "eng": "Hanil General Hospital",
+    "kor": "한일병원"
+  },
+  {
+    "value": "980",
+    "eng": "KEPCO Medical Center",
+    "kor": "한전병원"
+  },
+  {
+    "value": "985",
+    "eng": "Hyundae General Hospital",
+    "kor": "현대병원"
+  },
+  {
+    "value": "987",
+    "eng": "Hongik Hospital",
+    "kor": "홍익병원"
+  },
+  {
+    "value": "990",
+    "eng": "Chonnam National University Hwasun Hospital",
+    "kor": "화순전남대학교병원"
+  },
+  {
+    "value": "992",
+    "eng": "Hanseo Hospital",
+    "kor": "BHS한서병원"
+  },
+  {
+    "value": "995",
+    "eng": "G Sam Hospital",
+    "kor": "G샘병원"
+  },
+  {
+    "value": "999",
+    "eng": "",
+    "kor": "기타소속"
+  }
+]

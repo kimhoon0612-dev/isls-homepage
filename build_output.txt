@@ -1,0 +1,25 @@
+▲ Next.js 16.2.4 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 8.5s
+  Running TypeScript ...
+  Finished TypeScript in 3.4s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/37) ...
+  Generating static pages using 11 workers (9/37) 
+  Generating static pages using 11 workers (18/37) 
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/membership/mypage". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at S (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\.next\server\chunks\ssr\node_modules_next_0w2y7fz._.js:2:2692)
+    at r (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\.next\server\chunks\ssr\node_modules_next_0w2y7fz._.js:4:6760)
+    at C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\.next\server\chunks\ssr\_0en0dg6._.js:1:6220
+    at an (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84267)
+    at ai (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86086)
+    at al (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:107860)
+    at ao (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:105275)
+    at aa (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:84619)
+    at ai (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:86135)
+    at ai (C:\Users\김훈\Desktop\프로그램 개발\260426_ISLS 홈페이지\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.prod.js:2:104615)
+Error occurred prerendering page "/membership/mypage". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /membership/mypage/page: /membership/mypage, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

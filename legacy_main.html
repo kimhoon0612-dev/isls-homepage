@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="ISLS">
+    <meta name="description" content="">
+    <meta name="author" content="">
+		<title>ISLS-International Society Of Liver Surgeons</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link href="/css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="/css/bootsnav.css?ver=20250409" rel="stylesheet">
+    <link href="/css/index.css?ver=20251110" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/images/favicon.ico">
+
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type='text/javascript' src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+
+	</head>
+
+
+<style>
+.alert-labeled{
+  padding: 0px;
+	margin-bottom:10px;
+}
+
+.alert-labeled-row{
+    display: table-row;
+    padding: 0px;
+}
+
+.alert-labelled-cell{
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.alert-labeled .close > *{
+    padding:10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.alert-label{
+    vertical-align: middle;
+    background: #ee3d3c;
+    width: auto;
+    padding: 10px 5px;
+    height: 100%;
+    font-size:1.1em;
+		color:#fff;
+}
+
+.index-content a:hover{
+    color:black;
+    text-decoration:none;
+}
+.index-content{
+    margin-bottom:0px;
+    padding:0px 0px;
+    
+}
+.index-content .row{
+    margin-top:20px;
+}
+.index-content a{
+    color: black;
+}
+
+.shape{    
+  border-style: solid; border-width: 0 70px 47px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.shape {
+	border-color: rgba(255,255,255,0) #ee3d3c rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.shape-text{
+	color:#fff; font-size:18px; font-weight:bold; position:relative; right:-45px; top:1px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}
+mark{padding:0px;}
+
+.modal-dialog{
+  overflow-y: initial !important;
+  margin-top:50px;
+}
+.modal-body{
+    max-height: 720px;
+    overflow-y: auto;
+}
+</style>
+<body>
+<!-- navbar -->
+		<div class="pageheader hidden-sm hidden-xs" style="padding-top:10px;padding-bottom:10px;">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<a href="/"><img src="/images/header_logo.png" class="center-block"></a>
+					</div>
+					<div class="col-md-4">
+					<!-- Start Atribute Navigation -->
+						<div class="attr-nav">
+							<ul>
+							
+								<li><a href="/00_members/login.html" style="padding-top:5px;"><i class="fa fa-sign-in"></i> Log-in</a></li>
+								<li><a href="/00_members/agreement.html" style="padding-top:5px;"><i class="fa fa-user"></i> Create an Account </a></li>
+							
+							</ul>
+						</div>
+						<!-- End Atribute Navigation -->
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- End Home -->
+
+	<div class="clearfix"></div>
+		
+	<nav class="navbar navbar-default navbar-sticky bootsnav">
+    <div class="container">
+      <div class="attr-nav hidden-lg hidden-md">
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-2x fa-user-circle"></i>
+            </a>
+            <ul class="dropdown-menu cart-list">
+							
+								<li><a href="/00_members/login.html"><i class="fa fa-sign-in"></i> Log-in</a></li>
+								<li><a href="/00_members/agreement.html"><i class="fa fa-user"></i> Create an Account </a></li>
+							
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+			<div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hidden-lg hidden-md" href="/"><img src="/images/logo_host.png" class="logo" style="max-width:150px;"></a>
+      </div>
+  	  <div class="hidden-lg hidden-md" style="background-image:url('/images/header_bar.png');height:7px;"></div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-center">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About ISLS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/01_about/s11.html#Greetings">Greetings</a></li>
+              <li><a href="/01_about/s11.html#Council">Council</a></li>
+              <li><a href="/01_about/s11.html#Member">ISLS Member-at-Large</a></li>
+              <li><a href="/01_about/s11.html#Board">ISLS Study Group Board</a></li>
+              <li><a href="/01_about/s11.html#Endorsement">Endorsement</a></li>
+              <li><a href="/01_about/s11.html#BidManual">ISLS Bid Manual</a></li>
+              <li><a href="/01_about/s11.html#ManagementOffice">Contact us</a></li>
+						</ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Membership<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/02_membership/s21.html#About">About ISLS Membership</a></li>
+              <li><a href="/02_membership/s22.html#Join">Join or Renew</a></li>
+              <li><a href="/02_membership/mypage.html#Mypage">My ISLS Membership</a></li>
+							<li><a href="/02_membership/s24.html#Vod">VOD / E-Learning</a></li>
+							<li><a href="/02_membership/s25.html#Members">ISLS Members list</a></li>
+							<li><a href="/02_membership/s26.html#By-laws">By-laws</a></li>
+							<li><a href="/02_membership/s27.html#Journal">Journal</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/03_events/s31.html#ISLSCongress">ISLS Congress</a></li>
+              <li><a href="/03_events/s31.html#SingleTopic">Single Topic Symposia</a></li>
+              <li><a href="/03_events/s31.html#Webinar">ISLS Webinars</a></li>              
+            </ul>
+          </li> 
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donation<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/99_donation/s91.html#WhyDonation">Why donation</a></li>
+              <li><a href="/99_donation/s92.html#DonationWall">Donation Wall</a></li>
+              <li><a href="/99_donation/Form/DonationForm.html">Make a donation</a></li>
+            </ul>
+          </li>
+          <!--li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinar<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/08_Webinar/s81.html#Webinar">ISLS Webinar Series</a></li>
+              <li><a href="/08_Webinar/s81.html#Register">Register for webinar</a></li>
+            </ul>
+          </li-->
+          <li class="">
+            <a href="/09_committee/s91.html#Committee" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Committee</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Study Group<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/07_study/s71.html#About">About ISLS Study Group Platform</a></li>
+              <li><a href="/07_study/s71.html#StudyGroupLeaders">Study Group Leaders </a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/10_fellowship/s10.html#Fellowship" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Fellowship</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relevant Meetings<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/05_meeting/s51.html#RelevantMeetings">Relevant Meetings</a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/04_notice/s41.html#NoticeBoard" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Notice</a>
+          </li>
+				</ul>
+      </div>
+    </div>
+</nav>
+
+<!-- navbar -->
+<section class="banner-section">
+	<div class="container">
+		<div class="hidden-lg hidden-md bg-info mainbg">
+			<img src="/images/m_main01.jpg" class="img-responsive">
+		</div>
+
+		<div class="about-carousel hidden-sm hidden-xs">
+			<div id="myCarousel" class="carousel slide">
+				<ol class="carousel-indicators hidden-xs">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="6"></li>
+					<li data-target="#myCarousel" data-slide-to="7"></li>
+					<li data-target="#myCarousel" data-slide-to="8"></li>
+				</ol>
+
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<a href="https://www.islscongress.com/" target="_blank"><img src="/images/2025/main_20251201.jpg" alt="" style="width:100%"></a>
+					</div>
+					<div class="item">
+						<img src="/images/2024/isls2024_0326.jpg" alt="" style="width:100%">
+            <a href="https://www.isls2024sts.org" target="_blank" class="link"><span></span></a>
+					</div>
+					<div class="item">
+						<img src="/images/2025/main_20251205.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/2023/main_20231103.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/main202201.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/main202202.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/main.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/main02.jpg" alt="" style="width:100%">
+					</div>
+					<div class="item">
+						<img src="/images/main03.jpg" alt="" style="width:100%">
+					</div>
+				</div>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				</a>
+			</div><!--myCarousel-->
+		</div><!--about-->
+	</div>
+</section>
+<section class="post-content-section">
+    <div class="container">
+        <div class="row">
+						<div class="col-sm-12 portfolio" style="margin-top:20px;">
+
+								<ul class="isotope items col-3 gap">
+									<li class="item white-panel panel-default">
+										<h3 class="text-center">Latest News from ISLS</h3>
+										<div class="item-content">
+										<div class='index-content'>
+	<div class='new'>
+		<a href='/04_notice/s41.html?BIdx=1038' title='Invitation the Bid for Single Topic Symposium 2026'>
+			<span class='title'>Invitation the Bid for Single Topic Symposium 2026</span>
+			 <p>
+	
+		
+			
+		
+		
+			&nbsp;
+			Invitation the Bid for Single Topic Symposium (STS)
+			&nbsp;
+			The International Society of Liver Surgeons (I ...</p>
+			 <h5 class='text-right'><label><i class='fa fa-calendar'></i> 2025-07-25</label></h5>
+		</a>
+	</div>
+</div>
+<hr>
+<div class='index-content'>
+	<div class='new'>
+		<a href='/04_notice/s41.html?BIdx=1037' title='Announcement for the 2024 Fellowship Awardee'>
+			<span class='title'>Announcement for the 2024 Fellowship Awardee</span>
+			 <p></p>
+			 <h5 class='text-right'><label><i class='fa fa-calendar'></i> 2024-10-28</label></h5>
+		</a>
+	</div>
+</div>
+<hr>
+<div class='index-content'>
+	<div class='new'>
+		<a href='/04_notice/s41.html?BIdx=1033' title='ISLS Paolo Muiesan Fellowship Program'>
+			<span class='title'>ISLS Paolo Muiesan Fellowship Program</span>
+			 <p>The ISLS Paolo Muiesan Fellowship Program has been established to commemorate Dr. Paolo Muiesan who sadly passed away last year. Dr. Muiesan ...</p>
+			 <h5 class='text-right'><label><i class='fa fa-calendar'></i> 2023-10-26</label></h5>
+		</a>
+	</div>
+</div>
+<h
+										</div>
+									</li><!-- /.item -->
+
+									<li class="item white-panel">
+										<h3 class="text-center">Members Space</h3>
+										<div class="item-content">
+											<h4 class="title"><span class="text-danger">VODs</span></h4>
+											<div class="row">
+													<div class="col-xs-12 col-md-12">
+														<a href="/02_membership/s24.html#VOD"><img src="/images/vod_sample.png" class="img-responsive"></a>
+													</div>
+											</div>
+											<hr>
+											<h4 class="title"><a href="/02_membership/s25.html#Members"><span class="text-danger">Members Directory</span></a></h4>
+										</div>
+									</li><!-- /.item -->
+
+									<!--li class="item white-panel">
+                    <a href="/06_journal/s61.html#About" target="_blank"><img src="/images/2024/scie_12_5.jpg" class="img-responsive"></a>
+									</li--><!-- /.item -->
+
+
+									<li class="item white-panel">
+										<div class="shape">
+											<div class="shape-text">
+												<i class="fa fa-check-square-o" aria-hidden="true"></i>
+											</div>
+										</div>
+										<h3 class="text-center">Membership Benefits </h3>
+										<div class="item-content">
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+																Being part of a professional liver and pancreas surgeons network
+															</p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+																Discounts on the ISLS biennial symposiums and other meetings
+															</p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+																Access to lecture VODs (ISLS congress and online webinars)
+															</p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+                                Access to ISLS member directories
+                              </p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+                                Eligibility to join the ISLS Study Group
+  														</p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+                                Eligibility to apply for the ISLS Paolo Muiesan Fellowship Program
+  														</p>
+													</div>
+											</div> 
+											<div class="alert alert-default alert-labeled border">
+													<div class="alert-labeled-row">
+															<span class="alert-label alert-label-left alert-labelled-cell"></span>
+															<p class="alert-body alert-body-right alert-labelled-cell">
+                                Eligible for a discounted registration fee of $700.00 for ISLS 2025 Toronto.
+  														</p>
+													</div>
+											</div> 
+											<h5 class="text-center"><span class="text-danger text-bold">Not a member yet? Join Now!</span></h5>
+
+											<div>							
+												<a href="/02_membership/s22.html#Join" role="button" class="btn btn-success btn-block">Join or Renew Membership</a>
+											</div>
+
+										</div>
+									</li><!-- /.item -->
+
+									<li class="item white-panel">
+										<h3 class="text-center">Connect with ISLS</h3>
+										<div class="item-content">
+											<div class="row">
+												<div class="col-xs-12 col-md-12 text-center">
+														<a data-toggle="modal" href="#MailingModal" role="button" class="btn btn-default btn-select btnEmail">
+																<span class="btn-select-value">Join Mailing List</span>
+																<span class='btn-select-arrow fa fa-envelope'></span>
+														</a>
+												</div>
+												<div class="col-md-12">
+													<a href="mailto:isls@isls-society.org" role="button" class="btn btn-default btn-select" style="margin-bottom:10px;">
+														<span class="btn-select-value">Send email to office</span>
+														<span class='btn-select-arrow fa fa-envelope'></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</li><!-- /.item -->
+
+
+									<li class="item white-panel">
+										<h3 class="text-center">E-Newsletter</h3>
+										<div class="item-content">
+											<div class="row">
+													<div class="col-xs-12 col-md-12 text-center">
+																<a class="btn btn-default btn-select btn-select-light btn-newsletter" style="margin-bottom:0px;">
+																		<input type="hidden" class="btn-select-input" id="" name="" value="" >
+																		<span class="btn-select-value">E-newsletter</span>
+																		<span class='btn-select-arrow fa fa-chevron-down'></span>
+																		<ul>
+																			<li value="/newsletter/newsletter_2026_02.html">[2026.04] 2<sup>nd</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_2026_01.html">[2026.01] 1<sup>st</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_37_eng.html">[2025.12] 37<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_36_eng.html">[2025.09] 36<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_35_eng.html">[2025.08] 35<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_34_eng.html">[2025.08] 34<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_33_eng.html">[2025.06] 33<sup>rd</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_32_eng.html">[2025.05] 32<sup>nd</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_31_eng.html">[2025.05] 31<sup>st</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_30_eng.html">[2025.04] 30<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_29_eng.html">[2025.04] 29<sup>th</sup> Newsletter(English)</li>
+																			<li value="/newsletter/newsletter_28_eng.html">[2025.02] 28<sup>th</sup> Newsletter(English)</li>
+																		</ul>
+																</a>
+
+													</div>
+											</div>
+										</div>
+									</li><!-- /.item -->
+
+
+								</ul>
+						</div>
+				</div>
+    </div> <!-- /container -->
+</section>
+
+	
+		<!-- Popup -->
+		<div aria-hidden="true" aria-labelledby="popupModal" role="dialog" tabindex="-1" id="popupModal" class="modal fade">
+				<div class="modal-dialog modal-xlg">
+						<div class="modal-content">
+								<div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <a href="/02_membership/s22.html#Join"><img src="/images/2025/pop_2025111001.jpg" class="img-responsive"></a>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="hidden-lg hidden-md" style="margin:10px;">&nbsp;</div>
+                      <a href="/99_donation/s91.html#WhyDonation"><img src="/images/2025/pop_2025111002.jpg" class="img-responsive"></a>
+                    </div>
+                  </div>
+								</div>
+								<div class="modal-footer">
+									<button data-dismiss="modal" class="btn btn-default btn-sm" id="popupClose" type="button">Close this pop-up for next 24 hours.</button>
+								</div>
+						</div>
+				</div>
+		</div>
+		<!-- modal -->
+	
+
+
+<!-- Join mailing -->
+<div aria-hidden="true" aria-labelledby="MailingModal" role="dialog" tabindex="-1" id="MailingModal" class="modal fade">
+		<div class="modal-dialog">
+				<div class="modal-content" style="width:480px;">
+						<div class="modal-header">
+								<button type="button btn-default btn-lg" class="close" data-dismiss="modal" aria-hidden="true"><span class="pull-right"><i class="fa fa-times" aria-hidden="true"></i></span></button>
+								<h4 class="modal-title" style="color:#FFFFFF;">Join ISLS Mailing List</h4>
+						</div>
+						<form class="form-horizontal"  method="post" data-toggle="validator" name="MailingFrm" id="MailingFrm" action="/mailing/MailingProc.html">
+							<input type="hidden" name="SessionIdx" value="705274078">
+							<input type="hidden" name="txtCountryName" id="txtCountryName">
+							<div class="modal-body">
+								<p></p>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">*E-mail</label>
+									<div class="col-sm-9">
+										<input type="text" name="txtEmail" id="txtEmail"  class="form-control text_Eng">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">*First name</label>
+									<div class="col-sm-9">
+										<input type="text" name="txtFirstName" id="txtFirstName" class="form-control text_Eng">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">*Last name</label>
+									<div class="col-sm-9">
+										<input type="text" name="txtLastName" id="txtLastName"  class="form-control text_Eng">
+									</div>
+								</div>
+								<div class="form-group" style="margin-bottom: 10px;">
+									<label class="col-sm-3 control-label">Country</label>
+									<div class="col-sm-9">
+										<select name="selCountryCode" id="selCountryCode" class="form-control">
+											<option value=''>Select Country</option>
+											<option value='af'>Afghanistan </option> <option value='al'>Albania </option> <option value='dz'>Algeria </option> <option value='as'>American Samoa</option> <option value='ad'>Andorra</option> <option value='ao'>Angola</option> <option value='ai'>Anguilla</option> <option value='ag'>Antigua and Barbuda</option> <option value='ar'>Argentina</option> <option value='am'>Armenia </option> <option value='aw'>Aruba</option> <option value='au'>Australia</option> <option value='at'>Austria </option> <option value='az'>Azerbaijan </option> <option value='bs'>Bahamas</option> <option value='bh'>Bahrain </option> <option value='bd'>Bangladesh </option> <option value='bb'>Barbados</option> <option value='by'>Belarus </option> <option value='be'>Belgium </option> <option value='bz'>Belize</option> <option value='bj'>Benin </option> <option value='bm'>Bermuda</option> <option value='bt'>Bhutan </option> <option value='bo'>Bolivia</option> <option value='ba'>Bosnia and Herzegovina </option> <option value='bw'>Botswana</option> <option value='br'>Brazil </option> <option value='io'>British Indian Ocean Territory</option> <option value='vg'>British Virgin Islands</option> <option value='bn'>Brunei</option> <option value='bg'>Bulgaria </option> <option value='bf'>Burkina Faso</option> <option value='bi'>Burundi </option> <option value='kh'>Cambodia </option> <option value='cm'>Cameroon </option> <option value='ca'>Canada</option> <option value='cv'>Cape Verde </option> <option value='bq'>Caribbean Netherlands</option> <option value='ky'>Cayman Islands</option> <option value='cf'>Central African Republic </option> <option value='td'>Chad </option> <option value='cl'>Chile</option> <option value='cn'>China </option> <option value='cx'>Christmas Island</option> <option value='cc'>Cocos </option> <option value='co'>Colombia</option> <option value='km'>Comoros </option> <option value='cd'>Congo </option> <option value='cg'>Congo </option> <option value='ck'>Cook Islands</option> <option value='cr'>Costa Rica</option> <option value='ci'>Côte d’Ivoire</option> <option value='hr'>Croatia </option> <option value='cu'>Cuba</option> <option value='cw'>Curaçao</option> <option value='cy'>Cyprus </option> <option value='cz'>Czech Republic </option> <option value='dk'>Denmark </option> <option value='dj'>Djibouti</option> <option value='dm'>Dominica</option> <option value='do'>Dominican Republic </option> <option value='ec'>Ecuador</option> <option value='eg'>Egypt </option> <option value='sv'>El Salvador</option> <option value='gq'>Equatorial Guinea </option> <option value='er'>Eritrea</option> <option value='ee'>Estonia </option> <option value='et'>Ethiopia</option> <option value='fk'>Falkland Islands </option> <option value='fo'>Faroe Islands </option> <option value='fj'>Fiji</option> <option value='fi'>Finland </option> <option value='fr'>France</option> <option value='gf'>French Guiana </option> <option value='pf'>French Polynesia </option> <option value='ga'>Gabon</option> <option value='gm'>Gambia</option> <option value='ge'>Georgia </option> <option value='de'>Germany </option> <option value='gh'>Ghana </option> <option value='gi'>Gibraltar</option> <option value='gr'>Greece </option> <option value='gl'>Greenland </option> <option value='gd'>Grenada</option> <option value='gp'>Guadeloupe</option> <option value='gu'>Guam</option> <option value='gt'>Guatemala</option> <option value='gg'>Guernsey</option> <option value='gn'>Guinea </option> <option value='gw'>Guinea-Bissau </option> <option value='gy'>Guyana</option> <option value='ht'>Haiti</option> <option value='hn'>Honduras</option> <option value='hk'>Hong Kong </option> <option value='hu'>Hungary </option> <option value='is'>Iceland </option> <option value='in'>India </option> <option value='id'>Indonesia</option> <option value='ir'>Iran </option> <option value='iq'>Iraq </option> <option value='ie'>Ireland</option> <option value='im'>Isle of Man</option> <option value='il'>Israel </option> <option value='it'>Italy </option> <option value='jm'>Jamaica</option> <option value='jp'>Japan </option> <option value='je'>Jersey</option> <option value='jo'>Jordan </option> <option value='kz'>Kazakhstan </option> <option value='ke'>Kenya</option> <option value='ki'>Kiribati</option> <option value='kr'>Korea, Republic of</option> <option value='kw'>Kuwait </option> <option value='kg'>Kyrgyzstan </option> <option value='la'>Laos </option> <option value='lv'>Latvia </option> <option value='lb'>Lebanon </option> <option value='ls'>Lesotho</option> <option value='lr'>Liberia</option> <option value='ly'>Libya </option> <option value='li'>Liechtenstein</option> <option value='lt'>Lithuania </option> <option value='lu'>Luxembourg</option> <option value='mo'>Macau </option> <option value='mk'>Macedonia </option> <option value='mg'>Madagascar </option> <option value='mw'>Malawi</option> <option value='my'>Malaysia</option> <option value='mv'>Maldives</option> <option value='ml'>Mali</option> <option value='mt'>Malta</option> <option value='mh'>Marshall Islands</option> <option value='mq'>Martinique</option> <option value='mr'>Mauritania </option> <option value='mu'>Mauritius </option> <option value='yt'>Mayotte</option> <option value='mx'>Mexico </option> <option value='fm'>Micronesia</option> <option value='md'>Moldova </option> <option value='mc'>Monaco</option> <option value='mn'>Mongolia </option> <option value='me'>Montenegro </option> <option value='ms'>Montserrat</option> <option value='ma'>Morocco </option> <option value='mz'>Mozambique </option> <option value='mm'>Myanmar </option> <option value='na'>Namibia </option> <option value='nr'>Nauru</option> <option value='np'>Nepal </option> <option value='nl'>Netherlands </option> <option value='nc'>New Caledonia </option> <option value='nz'>New Zealand</option> <option value='ni'>Nicaragua</option> <option value='ne'>Niger </option> <option value='ng'>Nigeria</option> <option value='nu'>Niue</option> <option value='nf'>Norfolk Island</option> <option value='kp'>North Korea </option> <option value='mp'>Northern Mariana Islands</option> <option value='no'>Norway </option> <option value='om'>Oman </option> <option value='pk'>Pakistan </option> <option value='pw'>Palau</option> <option value='ps'>Palestine </option> <option value='pa'>Panama </option> <option value='pg'>Papua New Guinea</option> <option value='py'>Paraguay</option> <option value='pe'>Peru </option> <option value='ph'>Philippines</option> <option value='pl'>Poland </option> <option value='pt'>Portugal</option> <option value='pr'>Puerto Rico</option> <option value='qa'>Qatar </option> <option value='re'>Réunion </option> <option value='ro'>Romania </option> <option value='ru'>Russia </option> <option value='rw'>Rwanda</option> <option value='bl'>Saint Barthélemy </option> <option value='sh'>Saint Helena</option> <option value='kn'>Saint Kitts and Nevis</option> <option value='lc'>Saint Lucia</option> <option value='mf'>Saint Martin </option> <option value='pm'>Saint Pierre and Miquelon </option> <option value='vc'>Saint Vincent and the Grenadines</option> <option value='ws'>Samoa</option> <option value='sm'>San Marino</option> <option value='st'>São Tomé and Príncipe </option> <option value='sa'>Saudi Arabia </option> <option value='sn'>Senegal </option> <option value='rs'>Serbia </option> <option value='sc'>Seychelles</option> <option value='sl'>Sierra Leone</option> <option value='sg'>Singapore</option> <option value='sx'>Sint Maarten</option> <option value='sk'>Slovakia </option> <option value='si'>Slovenia </option> <option value='sb'>Solomon Islands</option> <option value='so'>Somalia </option> <option value='za'>South Africa</option> <option value='ss'>South Sudan </option> <option value='es'>Spain </option> <option value='lk'>Sri Lanka </option> <option value='sd'>Sudan </option> <option value='sr'>Suriname</option> <option value='sj'>Svalbard and Jan Mayen</option> <option value='sz'>Swaziland</option> <option value='se'>Sweden </option> <option value='ch'>Switzerland </option> <option value='sy'>Syria </option> <option value='tw'>Taiwan </option> <option value='tj'>Tajikistan</option> <option value='tz'>Tanzania</option> <option value='th'>Thailand </option> <option value='tl'>Timor-Leste</option> <option value='tg'>Togo</option> <option value='tk'>Tokelau</option> <option value='to'>Tonga</option> <option value='tt'>Trinidad and Tobago</option> <option value='tn'>Tunisia </option> <option value='tr'>Turkey </option> <option value='tm'>Turkmenistan</option> <option value='tc'>Turks and Caicos Islands</option> <option value='tv'>Tuvalu</option> <option value='vi'>U.S. Virgin Islands</option> <option value='ug'>Uganda</option> <option value='ua'>Ukraine </option> <option value='ae'>United Arab Emirates </option> <option value='gb'>United Kingdom</option> <option value='us'>United States</option> <option value='uy'>Uruguay</option> <option value='uz'>Uzbekistan </option> <option value='vu'>Vanuatu</option> <option value='va'>Vatican City </option> <option value='ve'>Venezuela</option> <option value='vn'>Vietnam </option> <option value='wf'>Wallis and Futuna</option> <option value='eh'>Western Sahara </option> <option value='ye'>Yemen </option> <option value='zm'>Zambia</option> <option value='zw'>Zimbabwe</option> <option value='ax'>Åland Islands</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Interest</label>
+									<div class="col-sm-9 input-group">
+										<label class="radio-inline"><input type="checkbox" name='chkRegCheck1' id='chkRegCheck1' value="1"> Attendance</label>
+										<label class="radio-inline"><input type="checkbox" name='chkRegCheck2' id='chkRegCheck2' value="1"> Exhibition</label>
+										<label class="radio-inline"><input type="checkbox" name='chkRegCheck3' id='chkRegCheck3' value="1"> Others</label>
+									</div>
+								</div>
+                <div class="form-group row">
+                  <label class="col-sm-3 control-label"></label>
+                  <div class="col-sm-9">
+                   <div class="g-recaptcha" data-sitekey="6LeDmIYlAAAAAJ10dyjRGaAOSSGGQgql9alaEtJt" data-callback="recaptchaCallback"></div>
+                   <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">                   
+                  </div>
+                </div>
+								<div class="modal-footer">
+									<p class="text-center">
+									<button data-dismiss="modal" class="btn btn-default" id="modalClose" type="button">Cancel</button>
+									<button class="btn btn-danger" type="submit">Submit</button>
+									</p>
+								</div>
+							</div>
+					</form>
+
+				</div>
+		
+		</div>
+
+</div>
+
+
+<section id="sponsor" style="background-color:#f7f7f7;padding-top:30px;margin-top:50px;border-top:solid 1px #e0e0e0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.astellas.com/kr/ko" target="_blank"><img alt="" src="/images/sponsor/2024/s_06.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.ckdpharm.com/product/productList.do?searchCategory=EFFECT&choYn=N&prodName=&choSung=&effctFl=397&prodFl=" target="_blank"><img alt="" src="/images/sponsor/2025/s_08.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.gilead.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2023/s_62.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://yuhan.co.kr/Main/" target="_blank"><img alt="" src="/images/sponsor/2023/s_65.png" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.baxter.co.kr" target="_blank"><img alt="" src="/images/sponsor/2023/s_45.png" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.skplasma.com/kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_76.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.daewoong.co.kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_78.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://olympusmedical.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2024/s_79.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0);"><img alt="" src="/images/sponsor/2024/s_80.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.gcbiopharma.com/kor/index.do" target="_blank"><img alt="" src="/images/sponsor/2024/s_83.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.celltrionph.com/ko-kr/home/index" target="_blank"><img alt="" src="/images/sponsor/2024/s_85.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0);"><img alt="" src="/images/sponsor/2024/s_87.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.hyundaipharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2024/s_88.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0)" target=""><img alt="" src="/images/sponsor/2024/s_89.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0)" target=""><img alt="" src="/images/sponsor/2024/s_90.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://gccell.com/ko/main.do" target="_blank"><img alt="" src="/images/sponsor/2025/s_09.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.hanmi.co.kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_92.gif" class="img-responsive"></a>
+      </div>     
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.wevokorea.com/"><img alt="" src="/images/sponsor/2025/s_01.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.livsmed.com" target="_blank"><img alt="" src="/images/sponsor/2025/s_03.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.donga-st.com/html/" target="_blank"><img alt="" src="/images/sponsor/2025/s_04.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.dkpharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2025/s_05.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.kbpharma.co.kr/home" target="_blank"><img alt="" src="/images/sponsor/2025/s_06.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.daewonpharm.com/products/sub02_01_view.jsp?mb=02&mm=22&ms=211&lang=1&PRD_NO=181" target="_blank"><img alt="" src="/images/sponsor/2025/s_07.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.samil-pharm.com/" target="_blank"><img alt="" src="/images/sponsor/2025/s_10.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://hanmiscience.co.kr/science/handler/Home-Home" target="_blank"><img alt="" src="/images/sponsor/2025/s_12.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.pharmbio.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2025/s_13.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.novartis.com/kr-ko/" target="_blank"><img alt="" src="/images/sponsor/2025/s_14.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.bbraun.co.kr/ko.html" target="_blank"><img alt="" src="/images/sponsor/2026/s_01.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.dalimpharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2026/s_02.gif" class="img-responsive"></a>
+      </div>       
+    </div>
+  </div>                          
+</section>
+<footer>
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<!--copyright-->
+				<div class="col-md-6 col-sm-12">
+					<div style="padding-bottom:20px;">
+						<h4 class="text-bold">International Society of Liver Surgeons (ISLS) Office</h4>
+						<h5 style="line-height:150%;">
+							<i class="fa fa-phone pr-10"></i> +82-2-6951-0122<br>
+							<i class="fa fa-envelope pr-10"></i> <a href="mailto:isls@isls-society.org" style="text-decoration:none;color:#fff;">isls@isls-society.org</a>
+						</h5>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div style="padding-bottom:20px;">
+						<h5 class="text-right">
+							ISLS – All rights reserved © 2018
+						</h5>
+						<p class="text-right">
+							<!--button class="btn btn-warning btn-sm" Onclick="javascript:window.open('/privacy.html','pop','scrollbars=yes,resizable=no,width=600,height=670');">Privacy Policy</button>
+							<button class="btn btn-warning btn-sm" Onclick="javascript:window.open('/terms.html','pop','scrollbars=yes,resizable=no,width=600,height=670');">Terms of Use</button-->
+							<button class="btn btn-warning btn-sm" Onclick="javascript:alert('Will be updated soon.');">Privacy Policy</button>
+							<button class="btn btn-warning btn-sm" Onclick="javascript:alert('Will be updated soon.');">Terms of Use</button>
+						</p>
+
+					</div>
+				</div>
+				<!--copyright-->
+			</div>
+		</div>
+	</section>
+</footer>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootsnav.js?ver=20240326"></script>
+<script src="/js/common.js?ver=20250324"></script>
+
+
+<script src="/js/aos.js"></script>
+<script src="/js/jquery.isotope.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<script type='text/javascript' src="/js/jquery.validate.min.js"></script>
+<script type='text/javascript' src='/js/jquery.form_upload.js'></script>
+<script src="/js/jquery.cookie.js"></script>
+
+<script type="text/javascript"> 
+$().ready(function() {
+
+	$.validator.setDefaults({
+			highlight: function(element) {
+					$(element).closest('.form-group').addClass('has-error');
+			},
+			unhighlight: function(element) {
+					$(element).closest('.form-group').removeClass('has-error');
+			},
+			errorElement: 'span',
+			errorClass: 'help-block',
+			errorPlacement: function(error, element) {
+						if ( element.is(":radio") ) {
+//										error.insertAfter( element.parent());
+								error.insertAfter(element.closest("div").find(".last"));
+
+						}
+						else { // This is the default behavior of the script
+								error.insertAfter( element );
+						}
+			}
+	});
+
+  $('#btnEmail').click(function() {
+    $("#MailingModal").modal('show');
+    var action = "JoinMailingProc.html";
+    $("#MailingFrm").attr("action", "/mailing/" + action);
+  });
+
+
+  //메일 팝업
+  $('#MailingModal').on('shown.bs.modal', function (e) {
+      if($('#txtEmail').val() != ''){
+        $("#txtFirstName").focus();
+      }else{
+        $('#txtEmail').focus();
+      }
+  });  
+
+
+  //국가선택시 국가명 입력
+  $(document).on('change','#selCountryCode',function(){
+    $("#txtCountryName").val($("#selCountryCode option:selected").text());
+  });
+
+  $.validator.setDefaults({
+      highlight: function(element) {
+          $(element).closest('.form-group').addClass('has-error');
+      },
+      unhighlight: function(element) {
+          $(element).closest('.form-group').removeClass('has-error');
+      },
+      errorElement: 'span',
+      errorClass: 'help-block',
+      errorPlacement: function(error, element) {
+            if ( element.is(":radio") ) {
+                error.insertAfter(element.closest("div").find(".last"));
+
+            }
+            else { // This is the default behavior of the script
+                error.insertAfter( element );
+            }
+      }
+  });
+
+  //Join Mailing
+  $("#MailingFrm").validate({
+    ignore: ".ignore",
+    rules: {
+      txtFirstName				:	{	required: true},
+      txtLastName					:	{	required: true},
+      txtEmail						:	{ required: true,	email: true	},
+      hiddenRecaptcha: {
+          required: function () {
+              if (grecaptcha.getResponse() == '') {
+                  return true;
+              } else {
+                  return false;
+              }
+          }
+      }      
+    },
+    messages: {
+      txtFirstName				:	"Please enter your first name.",
+      txtLastName					:	"Please enter your last name.",
+      txtEmail						: { required:"Please enter your email address."}
+
+    },
+    submitHandler: function(form) { 
+      $('#MailingFrm').ajaxSubmit({ 
+        success : function(ret){
+          if(ret == "200") {
+            $('#MailingFrm')[0].reset();
+            alert("Thank you for joining ISLS mailing list.\nYour email will be used for the purpose of distributing a newsletter.");
+            $('#MailingModal').modal('hide');
+          }else{
+            alert(ret);
+          }
+          grecaptcha.reset(); 
+          return;
+        },
+        error:function (xhr, ajaxOptions, thrownError){
+          alert(thrownError);                
+        }    				
+      }); 
+    } 
+
+  });
+
+});
+
+
+/*===================================================================================*/
+/*	ISOTOPE PORTFOLIO
+/*===================================================================================*/
+
+$(document).ready(function () {
+	
+	var $container = $('.items');
+	
+	$container.imagesLoaded(function () {
+		$container.isotope({
+			itemSelector: '.white-panel'
+		});
+	});
+	
+	var resizeTimer;
+	
+	function resizeFunction() {
+		$container.isotope();
+	}
+	
+	
+});
+
+/*===================================================================================*/
+/*	News letter
+/*===================================================================================*/
+
+$(document).ready(function () {
+	$(".btn-select").each(function (e) {
+		var value = $(this).find("ul li.selected").html();
+		if (value != undefined) {
+				$(this).find(".btn-select-input").val(value);
+				$(this).find(".btn-select-value").html(value);
+		}
+	});
+});
+
+$(document).on('click', '.btn-newsletter', function (e) {
+	e.preventDefault();
+	var ul = $(this).find("ul");
+
+	if ($(this).hasClass("active")) {
+		if (ul.find("li").is(e.target)) {
+				var target = $(e.target);
+				target.addClass("selected").siblings().removeClass("selected");
+				var html = target.html();
+				var value = target.attr("value");
+				$(this).find(".btn-select-input").val(html);
+				$(this).find(".btn-select-value").html(html);
+
+				if(value != ""){
+
+					var
+						w       = 668,
+						h       = 800,
+						l       = (screen.availWidth - w) / 2,
+						t       = (screen.availHeight - h) / 2
+					window.open(value,"window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+
+				}
+		}
+		ul.hide();
+		$(this).removeClass("active");
+	}
+	else {
+		$('.btn-select').not(this).each(function () {
+				$(this).removeClass("active").find("ul").hide();
+		});
+		ul.slideDown(300);
+		$(this).addClass("active");
+	}
+});
+
+$(document).on('click', function (e) {
+	var target = $(e.target).closest(".btn-select");
+	if (!target.length) {
+			$(".btn-select").removeClass("active").find("ul").hide();
+	}
+});
+
+
+$().ready(function() {
+
+	//Main Visual
+	$('#myCarousel').carousel({
+			interval:5000,
+			pause: "hover"
+	});
+
+	//Main banner
+	$('#banner').carousel({
+			interval:4000,
+			pause: "hover"
+	});
+
+	
+		if ($.cookie('2025111001') == undefined) { 
+      $('#popupModal').modal('show');
+		} 
+  
+    $("#popupClose").click(function(){ 
+      $.cookie('2025111001', '1', { expires: 1, path : '/' }); 
+      $("#popupModal").modal('hide');
+      return false;
+    });
+  
+});
+
+
+function recaptchaCallback() {
+  $('#hiddenRecaptcha').valid();
+};
+
+</script>
+
+</body>
+</html>

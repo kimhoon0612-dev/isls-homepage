@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="ISLS">
+    <meta name="description" content="">
+    <meta name="author" content="">
+		<title>ISLS-International Society Of Liver Surgeons</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link href="/css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="/css/bootsnav.css?ver=20250409" rel="stylesheet">
+    <link href="/css/index.css?ver=20251110" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/images/favicon.ico">
+
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type='text/javascript' src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+
+	</head>
+
+<style>
+.modal-content {
+		width:100%;
+}
+
+ul.circle-number {
+  counter-reset: li;
+  list-style-type: none;
+  line-height: 18px;
+  padding-left: 10px;
+  
+  li {
+    position: relative;   
+    padding: 4px 0 4px 25px;
+    line-height:130%;
+    
+    &:before {
+      content: counter(li);
+      counter-increment: li;
+      height: 18px;
+      width: 18px;
+      border: 1px solid #333333;
+      border-radius: 50%;
+      color: #333333;
+      font-size:14px;
+      text-align: center;
+      position: absolute;      
+      left: 0;
+      top: 4px;
+    }
+  }
+}
+</style>
+<body>
+<!-- navbar -->
+		<div class="pageheader hidden-sm hidden-xs" style="padding-top:10px;padding-bottom:10px;">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<a href="/"><img src="/images/header_logo.png" class="center-block"></a>
+					</div>
+					<div class="col-md-4">
+					<!-- Start Atribute Navigation -->
+						<div class="attr-nav">
+							<ul>
+							
+								<li><a href="/00_members/login.html" style="padding-top:5px;"><i class="fa fa-sign-in"></i> Log-in</a></li>
+								<li><a href="/00_members/agreement.html" style="padding-top:5px;"><i class="fa fa-user"></i> Create an Account </a></li>
+							
+							</ul>
+						</div>
+						<!-- End Atribute Navigation -->
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- End Home -->
+
+	<div class="clearfix"></div>
+		
+	<nav class="navbar navbar-default navbar-sticky bootsnav">
+    <div class="container">
+      <div class="attr-nav hidden-lg hidden-md">
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-2x fa-user-circle"></i>
+            </a>
+            <ul class="dropdown-menu cart-list">
+							
+								<li><a href="/00_members/login.html"><i class="fa fa-sign-in"></i> Log-in</a></li>
+								<li><a href="/00_members/agreement.html"><i class="fa fa-user"></i> Create an Account </a></li>
+							
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+			<div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hidden-lg hidden-md" href="/"><img src="/images/logo_host.png" class="logo" style="max-width:150px;"></a>
+      </div>
+  	  <div class="hidden-lg hidden-md" style="background-image:url('/images/header_bar.png');height:7px;"></div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-center">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About ISLS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/01_about/s11.html#Greetings">Greetings</a></li>
+              <li><a href="/01_about/s11.html#Council">Council</a></li>
+              <li><a href="/01_about/s11.html#Member">ISLS Member-at-Large</a></li>
+              <li><a href="/01_about/s11.html#Board">ISLS Study Group Board</a></li>
+              <li><a href="/01_about/s11.html#Endorsement">Endorsement</a></li>
+              <li><a href="/01_about/s11.html#BidManual">ISLS Bid Manual</a></li>
+              <li><a href="/01_about/s11.html#ManagementOffice">Contact us</a></li>
+						</ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Membership<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/02_membership/s21.html#About">About ISLS Membership</a></li>
+              <li><a href="/02_membership/s22.html#Join">Join or Renew</a></li>
+              <li><a href="/02_membership/mypage.html#Mypage">My ISLS Membership</a></li>
+							<li><a href="/02_membership/s24.html#Vod">VOD / E-Learning</a></li>
+							<li><a href="/02_membership/s25.html#Members">ISLS Members list</a></li>
+							<li><a href="/02_membership/s26.html#By-laws">By-laws</a></li>
+							<li><a href="/02_membership/s27.html#Journal">Journal</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/03_events/s31.html#ISLSCongress">ISLS Congress</a></li>
+              <li><a href="/03_events/s31.html#SingleTopic">Single Topic Symposia</a></li>
+              <li><a href="/03_events/s31.html#Webinar">ISLS Webinars</a></li>              
+            </ul>
+          </li> 
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donation<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/99_donation/s91.html#WhyDonation">Why donation</a></li>
+              <li><a href="/99_donation/s92.html#DonationWall">Donation Wall</a></li>
+              <li><a href="/99_donation/Form/DonationForm.html">Make a donation</a></li>
+            </ul>
+          </li>
+          <!--li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinar<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/08_Webinar/s81.html#Webinar">ISLS Webinar Series</a></li>
+              <li><a href="/08_Webinar/s81.html#Register">Register for webinar</a></li>
+            </ul>
+          </li-->
+          <li class="">
+            <a href="/09_committee/s91.html#Committee" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Committee</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Study Group<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/07_study/s71.html#About">About ISLS Study Group Platform</a></li>
+              <li><a href="/07_study/s71.html#StudyGroupLeaders">Study Group Leaders </a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/10_fellowship/s10.html#Fellowship" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Fellowship</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relevant Meetings<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/05_meeting/s51.html#RelevantMeetings">Relevant Meetings</a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/04_notice/s41.html#NoticeBoard" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Notice</a>
+          </li>
+				</ul>
+      </div>
+    </div>
+</nav>
+
+<!-- navbar -->
+
+		<div class="clearfix"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header_sub"><img src="/images/sub_img02.jpg" class="hidden-xs hidden-sm" width="100%;"></div>
+				</div>
+				<div class="col-md-3 hidden-xs" id="leftCol">
+				<!-- left menu -->
+					<div id="sidebar" class="affix-top">
+							<div class="panel panel-default">
+	
+			<div class="panel-heading panel-heading-custom">
+				<h3 class="panel-title text-center" style="padding-left:0px;">Fellowship</h3>
+			</div>
+			<div class="panel-body" style="padding-left:0px;padding-right:0px;">
+				<ul class="nav nav-stacked">
+					<li><a href="/10_fellowship/s10.html#Fellowship">ISLS Paolo Muiesan Fellowship Program</a></li>
+				</ul>
+			</div>
+	
+	</div>
+
+					</div>
+				<!-- left menu -->
+				</div>  
+				<div class="col-md-9" id="mainCol">
+
+					<section id="Fellowship">
+						<h2 class="text-bold text-danger" style="margin-top:30px;">ISLS Paolo Muiesan Fellowship Program</h2>
+            <hr>
+						<div class="row">
+              <div class="col-md-12">
+                <p style="font-style:italic;">
+                  In Memory of<br>
+                  <span class="text-bold">Professor Paolo Muiesan</span>
+                </p>
+              </div>
+              <div class="col-md-3">
+                <img src="/images/2024/Paolo_Muiesan.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-9">
+                <p style="margin-top:10px;">The ISLS Paolo Muiesan Fellowship Program has been established to commemorate Dr. Paolo Muiesan who sadly passed away in year 2022. Dr. Muiesan made enormous contributions to the field of liver transplantation. His pioneering efforts in the fields of split-liver transplantation, donation after cardiac death, machine perfusion, and many others have hugely benefited mankind.</p>
+                <p>In the name of Dr. Paolo Muiesan, the ISLS society would like to support early career surgeons age less than 42 years old planning a career in HPB surgery who are seeking additional training with a mentor.</p>
+              </div>
+						</div>
+					</section><!--Fellowship Program-->
+
+					<section id="Eligibility">
+						<h3 class="text-bold text-info">Eligibility</h3>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+                <ul class="circle-number">
+                  <li>Early career surgeons age less than 42 years old planning a career in HPB surgery who are seeking additional training with a mentor at the mentor's hospital.</li>
+                  <li>Applicants must be a member of the ISLS at the time of application, and maintain their membership until the end of the fellowship program at least.</li>
+                  <li>Mentor could be a member of the ISLS Executive Council or a Member-at-Large.</li>
+                  <li>June 30 of each year is the deadline for submitting applications.<br> The completed application must be sent to the ISLS Office at <a href="mailto:isls@isls-society.org">isls@isls-society.org</a>. <br>The selection process will be completed by October, and the results will be formally announced through the ISLS Office e-newsletter or at the biennial congress in the case of years when the ISLS congress is held.</li>
+                </ul>
+							</div>
+						</div>
+					</section><!--Eligibility-->
+
+					<section id="Amount">
+						<h3 class="text-bold text-info">Amount & Period</h3>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+                <ul class="circle-number">
+                  <li>Applicants may choose a fellowship period of 3 to 6 months.</li>
+                  <li>Depending on the fellowship period, the payment amount will differ as below:</li>
+                </ul>
+                <ul style="margin-left:15px;font-weight:bold;margin-top:0px;">
+                  <li>3 ~ 6 months</li>
+                  <li style="list-style-type:none;">$1,500 per month + $1,000 airfare</li>
+                </ul>
+							</div>
+						</div>
+					</section><!--Amount-->
+
+
+					<section id="Amount">
+						<h3 class="text-bold text-info">Process</h3>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+                <ul style="list-style-type:none;margin-left:-30px;">
+                  <li style="padding: 5px 0 5px 0px;">1) The application will be accepted via email (<a href="mailto:isls@isls-society.org">isls@isls-society.org</a>)</li>
+                  <li style="padding: 5px 0 5px 0px;">2) The application should include:
+                    <ul class="circle-number" style="margin-left:10px;margin-top:5px;font-weight:bold;">
+                      <li>A letter of intent including aim of the fellowship, potential clinical research plan</li>
+                      <li>Applicant’s curriculum vitae</li>
+                      <li>Recommendation letter of the mentor from the applicant's organization/affiliation</li>
+                      <li>Curriculum vitae of a mentor</li>
+                    </ul>
+                  </li>
+                  <li style="padding: 5px 0 5px 0px;">3) ISLS Council will review the documents of the applicants and select the awardee.</li>
+                  <li style="padding: 5px 0 5px 0px;">4) The fellowship may commence at any time after the award has been granted, but no later than six months after the selection.</li>
+                  <li style="padding: 5px 0 5px 0px;">5) The awardee will sign a letter of agreement with ISLS. Payment will be made to the awardee's personal account.</li>
+                  <li style="padding: 5px 0 5px 0px;">6) The awardee has to submit a mid-term report to the ISLS office, which will be posted on the ISLS website.</li>
+                  <li style="padding: 5px 0 5px 0px;">7) The awardee is required to submit a final report to the ISLS official journal and make a presentation at the ISLS biennial congress.</li>
+                  <li style="padding: 5px 0 5px 0px;">8) An official ISLS Fellowship Ceremony will be held at the ISLS biennial congress.</li>
+                </ul>
+							</div>
+						</div>
+					</section><!--Amount-->
+
+				</div><!--mainCol-->
+			</div><!--main row-->
+		</div><!--main container-->
+
+
+<section id="sponsor" style="background-color:#f7f7f7;padding-top:30px;margin-top:50px;border-top:solid 1px #e0e0e0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.astellas.com/kr/ko" target="_blank"><img alt="" src="/images/sponsor/2024/s_06.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.ckdpharm.com/product/productList.do?searchCategory=EFFECT&choYn=N&prodName=&choSung=&effctFl=397&prodFl=" target="_blank"><img alt="" src="/images/sponsor/2025/s_08.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.gilead.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2023/s_62.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://yuhan.co.kr/Main/" target="_blank"><img alt="" src="/images/sponsor/2023/s_65.png" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.baxter.co.kr" target="_blank"><img alt="" src="/images/sponsor/2023/s_45.png" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.skplasma.com/kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_76.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.daewoong.co.kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_78.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://olympusmedical.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2024/s_79.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0);"><img alt="" src="/images/sponsor/2024/s_80.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.gcbiopharma.com/kor/index.do" target="_blank"><img alt="" src="/images/sponsor/2024/s_83.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.celltrionph.com/ko-kr/home/index" target="_blank"><img alt="" src="/images/sponsor/2024/s_85.jpg" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0);"><img alt="" src="/images/sponsor/2024/s_87.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.hyundaipharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2024/s_88.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0)" target=""><img alt="" src="/images/sponsor/2024/s_89.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="javascript:void(0)" target=""><img alt="" src="/images/sponsor/2024/s_90.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://gccell.com/ko/main.do" target="_blank"><img alt="" src="/images/sponsor/2025/s_09.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.hanmi.co.kr" target="_blank"><img alt="" src="/images/sponsor/2024/s_92.gif" class="img-responsive"></a>
+      </div>     
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.wevokorea.com/"><img alt="" src="/images/sponsor/2025/s_01.gif" class="img-responsive"></a>
+      </div>
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.livsmed.com" target="_blank"><img alt="" src="/images/sponsor/2025/s_03.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.donga-st.com/html/" target="_blank"><img alt="" src="/images/sponsor/2025/s_04.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.dkpharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2025/s_05.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.kbpharma.co.kr/home" target="_blank"><img alt="" src="/images/sponsor/2025/s_06.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.daewonpharm.com/products/sub02_01_view.jsp?mb=02&mm=22&ms=211&lang=1&PRD_NO=181" target="_blank"><img alt="" src="/images/sponsor/2025/s_07.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.samil-pharm.com/" target="_blank"><img alt="" src="/images/sponsor/2025/s_10.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://hanmiscience.co.kr/science/handler/Home-Home" target="_blank"><img alt="" src="/images/sponsor/2025/s_12.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.pharmbio.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2025/s_13.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.novartis.com/kr-ko/" target="_blank"><img alt="" src="/images/sponsor/2025/s_14.gif" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="https://www.bbraun.co.kr/ko.html" target="_blank"><img alt="" src="/images/sponsor/2026/s_01.jpg" class="img-responsive"></a>
+      </div>       
+      <div class="col-md-2 col-sm-6 col-xs-6">
+        <a class="thumbnail" href="http://www.dalimpharm.co.kr/" target="_blank"><img alt="" src="/images/sponsor/2026/s_02.gif" class="img-responsive"></a>
+      </div>       
+    </div>
+  </div>                          
+</section>
+<footer>
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<!--copyright-->
+				<div class="col-md-6 col-sm-12">
+					<div style="padding-bottom:20px;">
+						<h4 class="text-bold">International Society of Liver Surgeons (ISLS) Office</h4>
+						<h5 style="line-height:150%;">
+							<i class="fa fa-phone pr-10"></i> +82-2-6951-0122<br>
+							<i class="fa fa-envelope pr-10"></i> <a href="mailto:isls@isls-society.org" style="text-decoration:none;color:#fff;">isls@isls-society.org</a>
+						</h5>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div style="padding-bottom:20px;">
+						<h5 class="text-right">
+							ISLS – All rights reserved © 2018
+						</h5>
+						<p class="text-right">
+							<!--button class="btn btn-warning btn-sm" Onclick="javascript:window.open('/privacy.html','pop','scrollbars=yes,resizable=no,width=600,height=670');">Privacy Policy</button>
+							<button class="btn btn-warning btn-sm" Onclick="javascript:window.open('/terms.html','pop','scrollbars=yes,resizable=no,width=600,height=670');">Terms of Use</button-->
+							<button class="btn btn-warning btn-sm" Onclick="javascript:alert('Will be updated soon.');">Privacy Policy</button>
+							<button class="btn btn-warning btn-sm" Onclick="javascript:alert('Will be updated soon.');">Terms of Use</button>
+						</p>
+
+					</div>
+				</div>
+				<!--copyright-->
+			</div>
+		</div>
+	</section>
+</footer>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootsnav.js?ver=20240326"></script>
+<script src="/js/common.js?ver=20250324"></script>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+</body>
+</html>
