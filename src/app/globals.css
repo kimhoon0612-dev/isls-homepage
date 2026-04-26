@@ -79,3 +79,55 @@ input, select, textarea {
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 10px 40px -10px rgba(139, 0, 0, 0.1);
 }
+
+/* ===================================================
+   GLOBAL MOBILE RESPONSIVE TYPOGRAPHY
+   모든 서브 페이지의 글씨/아이콘을 모바일에서 자동 축소
+   =================================================== */
+
+/* 모바일: 기본 폰트 크기 축소 */
+@media (max-width: 640px) {
+
+  /* 섹션 제목 (h2) */
+  .font-serif.text-3xl  { font-size: 1.35rem !important; }
+  .font-serif.text-4xl  { font-size: 1.5rem !important; }
+  .font-serif.text-5xl  { font-size: 1.75rem !important; }
+
+  /* 콘텐츠 카드 내부 패딩 */
+  .rounded-\[2rem\].p-10   { padding: 1.25rem !important; }
+  .rounded-\[2rem\].p-8    { padding: 1rem !important; }
+  .rounded-\[2rem\].lg\:p-14 { padding: 1.25rem !important; }
+
+  /* SubLayout 콘텐츠 영역 패딩 */
+  .p-6.sm\:p-8.md\:p-12 { padding: 1rem !important; }
+
+  /* 섹션 간격 축소 */
+  .py-24 { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  .py-16 { padding-top: 1.75rem !important; padding-bottom: 1.75rem !important; }
+  .mb-16 { margin-bottom: 1.5rem !important; }
+  .mb-12 { margin-bottom: 1rem !important; }
+  .mb-10 { margin-bottom: 0.875rem !important; }
+
+  /* 멤버십 플랜 카드 */
+  .rounded-3xl.p-8 { padding: 1rem !important; }
+  .text-3xl.font-serif.font-bold { font-size: 1.35rem !important; }
+
+  /* Bento 카드 내부 아이콘 컨테이너 */
+  .w-14.h-14 { width: 2.25rem !important; height: 2.25rem !important; }
+  .w-12.h-12 { width: 2rem !important; height: 2rem !important; }
+  .w-10.h-10 { width: 1.75rem !important; height: 1.75rem !important; }
+
+  /* 큰 아이콘들 */
+  .w-16.h-16 { width: 2.5rem !important; height: 2.5rem !important; }
+
+  /* 스텝 카드 (Join 페이지의 단계 표시) */
+  .grid.grid-cols-2.lg\:grid-cols-4 { grid-template-columns: repeat(2, 1fr) !important; }
+  .grid.grid-cols-3    { grid-template-columns: repeat(1, 1fr) !important; }
+
+  /* Notice/게시판 테이블 */
+  table { font-size: 0.75rem !important; }
+}
+
+/* hide scrollbar utility */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

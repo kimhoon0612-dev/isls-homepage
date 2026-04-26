@@ -134,23 +134,23 @@ export default function MembershipJoinPage() {
     <SubLayout title="Join or Renew" menuTitle="Membership" menuItems={menuItems} currentPath="/membership/join">
 
       {/* Header */}
-      <div className="mb-10 animate-fade-in">
-        <h2 className="text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-4">Join or Renew Membership</h2>
-        <p className="text-lg text-gray-600 font-sans mt-4">Select your membership category and proceed to secure payment via Eximbay.</p>
+      <div className="mb-6 sm:mb-10 animate-fade-in">
+        <h2 className="text-xl sm:text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-3 sm:pb-4">Join or Renew Membership</h2>
+        <p className="text-sm sm:text-lg text-gray-600 font-sans mt-3 sm:mt-4">Select your membership category and proceed to secure payment via Eximbay.</p>
       </div>
 
       {/* Steps */}
-      <div className="mb-12 grid grid-cols-2 lg:grid-cols-4 gap-4 animate-fade-in">
+      <div className="mb-6 sm:mb-12 grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 animate-fade-in">
         {["Sign up", "Select Category", "Payment", "Complete"].map((step, i) => (
-          <div key={step} className={`flex flex-col items-center justify-center p-5 rounded-3xl text-center text-sm font-sans border-2 transition-all shadow-sm ${i < 2 ? "bg-primary/5 border-primary/20 text-primary font-bold shadow-primary/5" : "bg-white border-gray-100 text-gray-400"}`}>
-            <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-sm font-bold mb-3 ${i < 2 ? "bg-primary text-white shadow-md shadow-primary/20" : "bg-gray-100 text-gray-400"}`}>{i + 1}</span>
+          <div key={step} className={`flex flex-col items-center justify-center p-3 sm:p-5 rounded-2xl sm:rounded-3xl text-center text-xs sm:text-sm font-sans border-2 transition-all shadow-sm ${i < 2 ? "bg-primary/5 border-primary/20 text-primary font-bold shadow-primary/5" : "bg-white border-gray-100 text-gray-400"}`}>
+            <span className={`w-6 h-6 sm:w-8 sm:h-8 rounded-lg sm:rounded-xl flex items-center justify-center text-xs sm:text-sm font-bold mb-1.5 sm:mb-3 ${i < 2 ? "bg-primary text-white shadow-md shadow-primary/20" : "bg-gray-100 text-gray-400"}`}>{i + 1}</span>
             {step}
           </div>
         ))}
       </div>
 
       {/* Membership Plans */}
-      <h3 className="font-serif font-bold text-gray-900 text-2xl mb-6">Select Membership Category</h3>
+      <h3 className="font-serif font-bold text-gray-900 text-lg sm:text-2xl mb-4 sm:mb-6">Select Membership Category</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         {membershipPlans.map((plan) => (
           <button

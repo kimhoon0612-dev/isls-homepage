@@ -72,22 +72,22 @@ function MyPageContent() {
         </div>
       )}
 
-      <div className="mb-10 animate-fade-in">
-        <h2 className="text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-4">My ISLS Membership</h2>
-        <p className="text-lg text-gray-600 font-sans mt-4">Manage your profile and membership details</p>
+      <div className="mb-6 sm:mb-10 animate-fade-in">
+        <h2 className="text-xl sm:text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-3 sm:pb-4">My ISLS Membership</h2>
+        <p className="text-sm sm:text-lg text-gray-600 font-sans mt-2 sm:mt-4">Manage your profile and membership details</p>
       </div>
 
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
         {/* Profile Card */}
         <div className="xl:col-span-2 space-y-8">
           <div className="bg-white border border-gray-100 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] overflow-hidden transition-all hover:shadow-[0_8px_40px_rgb(0,0,0,0.08)]">
-            <div className="bg-gradient-to-r from-primary to-[#660000] px-8 py-8 flex items-center gap-6 relative overflow-hidden">
+            <div className="bg-gradient-to-r from-primary to-[#660000] px-5 sm:px-8 py-5 sm:py-8 flex items-center gap-4 sm:gap-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl -translate-y-1/2 translate-x-1/4"></div>
-              <div className="w-20 h-20 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center flex-shrink-0 border border-white/20 shadow-inner">
-                <User className="w-10 h-10 text-white" strokeWidth={1.5} />
+              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center flex-shrink-0 border border-white/20 shadow-inner">
+                <User className="w-7 h-7 sm:w-10 sm:h-10 text-white" strokeWidth={1.5} />
               </div>
               <div className="relative z-10">
-                <h3 className="text-white font-serif font-bold text-3xl leading-tight mb-2">{user.name}</h3>
+                <h3 className="text-white font-serif font-bold text-xl sm:text-3xl leading-tight mb-1 sm:mb-2">{user.name}</h3>
                 <span className={`inline-block text-xs font-sans font-bold px-3 py-1 rounded-full ${roleInfo.color} shadow-sm border border-white/20`}>
                   {roleInfo.label}
                 </span>

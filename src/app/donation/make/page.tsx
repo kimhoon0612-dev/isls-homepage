@@ -90,9 +90,9 @@ export default function Page() {
 
   return (
     <SubLayout title="Make a donation" menuTitle="Donation" menuItems={menuItems} currentPath="/donation/make">
-      <div className="mb-10 animate-fade-in">
-        <h2 className="text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-4">Make a Donation</h2>
-        <p className="text-lg text-gray-600 font-sans mt-4">Support the advancement of liver surgery worldwide.</p>
+      <div className="mb-6 sm:mb-10 animate-fade-in">
+        <h2 className="text-xl sm:text-3xl font-serif font-bold text-gray-900 border-b-2 border-primary pb-3 sm:pb-4">Make a Donation</h2>
+        <p className="text-sm sm:text-lg text-gray-600 font-sans mt-2 sm:mt-4">Support the advancement of liver surgery worldwide.</p>
       </div>
 
       {!session && status !== 'loading' && (
@@ -110,8 +110,8 @@ export default function Page() {
 
       {/* Amount Selection */}
       <div className="mb-10 animate-fade-in">
-        <h3 className="font-serif font-bold text-gray-900 text-2xl mb-6">Select Donation Amount (Credit Card)</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-4">
+        <h3 className="font-serif font-bold text-gray-900 text-lg sm:text-2xl mb-4 sm:mb-6">Select Donation Amount (Credit Card)</h3>
+        <div className="grid grid-cols-3 gap-2 sm:gap-6 mb-4">
           {DONATION_AMOUNTS.map((amount) => (
             <button
               key={amount}
@@ -127,7 +127,7 @@ export default function Page() {
               {selectedAmount === amount && (
                 <CheckCircle2 className="absolute top-6 right-6 w-6 h-6 text-primary animate-scale-in" />
               )}
-              <div className={`w-14 h-14 mx-auto rounded-2xl flex items-center justify-center mb-4 transition-colors ${selectedAmount === amount ? 'bg-primary text-white' : 'bg-red-50 text-primary group-hover:bg-primary group-hover:text-white'}`}>
+              <div className={`w-10 h-10 sm:w-14 sm:h-14 mx-auto rounded-xl sm:rounded-2xl flex items-center justify-center mb-2 sm:mb-4 transition-colors ${selectedAmount === amount ? 'bg-primary text-white' : 'bg-red-50 text-primary group-hover:bg-primary group-hover:text-white'}`}>
                 <Heart className="w-7 h-7" strokeWidth={1.5} />
               </div>
               <div className="text-xs font-sans font-bold uppercase tracking-widest text-gray-400 mb-1">One-time Donation</div>
