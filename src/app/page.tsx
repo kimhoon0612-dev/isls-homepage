@@ -38,11 +38,11 @@ export default function Home() {
               Dedicated to education, research, and international collaboration in all aspects of liver transplantation and surgery.
             </p>
             
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-6">
               <CongressPopup />
-              <Link href="/membership/join" className="group relative overflow-hidden bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 font-sans font-semibold text-sm tracking-widest uppercase transition-all duration-300 rounded-sm">
+              <Link href="/membership/join" className="group relative overflow-hidden bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-5 py-3 sm:px-8 sm:py-4 font-sans font-semibold text-xs sm:text-sm tracking-widest uppercase transition-all duration-300 rounded-sm">
                 <span className="relative z-10 flex items-center">
-                  Join ISLS Now <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  Join ISLS Now <ArrowRight className="ml-2 w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
               </Link>
             </div>
@@ -51,8 +51,8 @@ export default function Home() {
       </section>
 
       {/* Quick Links / Members Space (Glassmorphism Cards) */}
-      <section className="relative z-20 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 -mt-24 mb-32 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+      <section className="relative z-20 max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 mt-6 sm:mt-8 lg:-mt-24 mb-12 sm:mb-20 lg:mb-32 w-full">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
           {[
             { title: "VODs", desc: "Watch past webinars & lectures", icon: Video, link: "/membership/vod", bg: "bg-primary text-white border-primary-light shadow-[0_20px_40px_-15px_rgba(153,0,0,0.4)]", iconColor: "text-white" },
             { title: "Members Directory", desc: "Connect with professionals", icon: Contact2, link: "/membership/members", bg: "bg-white/95 backdrop-blur-xl border-gray-100 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)]", iconColor: "text-primary" },
@@ -62,19 +62,19 @@ export default function Home() {
             <Link 
               href={card.link} 
               key={idx} 
-              className={`group block border rounded-2xl p-5 sm:p-6 lg:p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_50px_-20px_rgba(0,0,0,0.15)] animate-slide-up opacity-0 ${card.bg}`}
+              className={`group block border rounded-xl sm:rounded-2xl p-3.5 sm:p-5 lg:p-8 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg animate-slide-up opacity-0 ${card.bg}`}
               style={{ animationDelay: `${0.8 + (idx * 0.1)}s` }}
             >
               <div className="flex flex-col h-full justify-between">
                 <div>
-                  <div className={`mb-3 sm:mb-6 inline-flex p-3 sm:p-4 rounded-full ${card.title === 'VODs' ? 'bg-white/20' : 'bg-red-50'} transition-transform duration-500 group-hover:scale-110`}>
-                    <card.icon className={`w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 ${card.iconColor}`} strokeWidth={1.5} />
+                  <div className={`mb-2 sm:mb-4 lg:mb-6 inline-flex p-2 sm:p-3 rounded-full ${card.title === 'VODs' ? 'bg-white/20' : 'bg-red-50'} transition-transform duration-500 group-hover:scale-110`}>
+                    <card.icon className={`w-4 h-4 sm:w-5 sm:h-5 lg:w-7 lg:h-7 ${card.iconColor}`} strokeWidth={1.5} />
                   </div>
-                  <h3 className="font-serif text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-3">{card.title}</h3>
-                  <p className={`font-sans text-xs sm:text-sm mb-4 sm:mb-8 ${card.title === 'VODs' ? 'text-white/80' : 'text-gray-500'}`}>{card.desc}</p>
+                  <h3 className="font-serif text-sm sm:text-base lg:text-2xl font-bold mb-1 sm:mb-2 lg:mb-3 leading-tight">{card.title}</h3>
+                  <p className={`font-sans text-[11px] sm:text-xs lg:text-sm mb-2 sm:mb-4 lg:mb-8 hidden sm:block ${card.title === 'VODs' ? 'text-white/80' : 'text-gray-500'}`}>{card.desc}</p>
                 </div>
-                <div className={`flex items-center font-sans font-bold text-xs tracking-[0.2em] uppercase mt-auto ${card.title === 'VODs' ? 'text-white' : 'text-primary'}`}>
-                  Access <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform duration-300" />
+                <div className={`flex items-center font-sans font-bold text-[10px] sm:text-xs tracking-[0.15em] uppercase mt-auto ${card.title === 'VODs' ? 'text-white' : 'text-primary'}`}>
+                  Access <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2 group-hover:translate-x-1 sm:group-hover:translate-x-2 transition-transform duration-300" />
                 </div>
               </div>
             </Link>
