@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full bg-[#FAFAFA]">
       {/* Hero Section */}
-      <section className="relative w-full h-[85vh] min-h-[700px] flex flex-col justify-center items-start overflow-hidden">
+      <section className="relative w-full h-[70vh] min-h-[520px] sm:h-[80vh] sm:min-h-[600px] lg:h-[85vh] lg:min-h-[700px] flex flex-col justify-center items-start overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-[#111]">
           <Image
@@ -30,11 +30,11 @@ export default function Home() {
             <h2 className="text-[#ffb3b3] font-sans tracking-[0.3em] uppercase mb-6 text-xs md:text-sm font-bold pl-0 md:pl-2">
               Advancing Liver Surgery Worldwide
             </h2>
-            <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-serif text-white mb-8 leading-[1.05] drop-shadow-2xl font-semibold tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[5.5rem] font-serif text-white mb-5 sm:mb-8 leading-[1.1] drop-shadow-2xl font-semibold tracking-tight">
               International Society of <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ffcccc] to-white italic font-light">Liver Surgeons</span>
             </h1>
-            <p className="text-lg md:text-2xl text-gray-200 mb-12 font-sans font-light leading-relaxed max-w-2xl opacity-90 drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-gray-200 mb-7 sm:mb-12 font-sans font-light leading-relaxed max-w-2xl opacity-90 drop-shadow-md">
               Dedicated to education, research, and international collaboration in all aspects of liver transplantation and surgery.
             </p>
             
@@ -62,16 +62,16 @@ export default function Home() {
             <Link 
               href={card.link} 
               key={idx} 
-              className={`group block border rounded-2xl p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_50px_-20px_rgba(0,0,0,0.15)] animate-slide-up opacity-0 ${card.bg}`}
+              className={`group block border rounded-2xl p-5 sm:p-6 lg:p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_50px_-20px_rgba(0,0,0,0.15)] animate-slide-up opacity-0 ${card.bg}`}
               style={{ animationDelay: `${0.8 + (idx * 0.1)}s` }}
             >
               <div className="flex flex-col h-full justify-between">
                 <div>
-                  <div className={`mb-6 inline-flex p-4 rounded-full ${card.title === 'VODs' ? 'bg-white/20' : 'bg-red-50'} transition-transform duration-500 group-hover:scale-110`}>
-                    <card.icon className={`w-8 h-8 ${card.iconColor}`} strokeWidth={1.5} />
+                  <div className={`mb-3 sm:mb-6 inline-flex p-3 sm:p-4 rounded-full ${card.title === 'VODs' ? 'bg-white/20' : 'bg-red-50'} transition-transform duration-500 group-hover:scale-110`}>
+                    <card.icon className={`w-5 h-5 sm:w-7 sm:h-7 lg:w-8 lg:h-8 ${card.iconColor}`} strokeWidth={1.5} />
                   </div>
-                  <h3 className="font-serif text-2xl font-bold mb-3">{card.title}</h3>
-                  <p className={`font-sans text-sm mb-8 ${card.title === 'VODs' ? 'text-white/80' : 'text-gray-500'}`}>{card.desc}</p>
+                  <h3 className="font-serif text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-3">{card.title}</h3>
+                  <p className={`font-sans text-xs sm:text-sm mb-4 sm:mb-8 ${card.title === 'VODs' ? 'text-white/80' : 'text-gray-500'}`}>{card.desc}</p>
                 </div>
                 <div className={`flex items-center font-sans font-bold text-xs tracking-[0.2em] uppercase mt-auto ${card.title === 'VODs' ? 'text-white' : 'text-primary'}`}>
                   Access <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-2 transition-transform duration-300" />
@@ -89,7 +89,7 @@ export default function Home() {
           {/* Latest News (Large Bento Box) */}
           <div className="lg:col-span-7 bg-white rounded-3xl p-8 lg:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_8px_40px_rgb(0,0,0,0.08)] transition-shadow duration-500">
             <div className="flex justify-between items-center mb-10">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900">Latest News</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-gray-900">Latest News</h2>
               <Link href="/notice" className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-500 hover:bg-primary hover:text-white transition-all">
                 <ArrowRight className="w-5 h-5" />
               </Link>
@@ -127,7 +127,7 @@ export default function Home() {
             <div className="absolute -right-20 -top-20 w-64 h-64 bg-primary/20 rounded-full blur-[80px] group-hover:bg-primary/30 transition-all duration-700"></div>
             
             <div className="relative z-10 flex justify-between items-center mb-10">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-white">E-Newsletter</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-white">E-Newsletter</h2>
               <Link href="/notice/newsletter" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-primary transition-all backdrop-blur-md">
                 <ArrowRight className="w-5 h-5" />
               </Link>
@@ -161,7 +161,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div className="max-w-2xl">
               <p className="text-primary font-sans font-bold text-xs tracking-[0.3em] uppercase mb-4">Why ISLS?</p>
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 leading-tight">Membership <br className="hidden md:block"/> Exclusive Benefits</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-gray-900 leading-tight">Membership <br className="hidden md:block"/> Exclusive Benefits</h2>
             </div>
             <Link href="/membership/join" className="inline-flex items-center justify-center bg-primary hover:bg-primary-dark text-white px-8 py-4 font-sans font-bold tracking-widest uppercase text-sm rounded-full transition-all hover:shadow-[0_10px_20px_rgba(153,0,0,0.3)] hover:-translate-y-1">
               Join ISLS Today
@@ -177,12 +177,12 @@ export default function Home() {
               { text: "Eligibility to join the ISLS Study Group", icon: BookOpen },
               { text: "Eligible for Paolo Muiesan Fellowship Program", icon: Award },
             ].map((benefit, idx) => (
-              <div key={idx} className="group bg-gray-50 hover:bg-white p-8 rounded-3xl border border-transparent hover:border-gray-200 transition-all duration-300 hover:shadow-[0_15px_40px_-15px_rgba(0,0,0,0.1)]">
-                <div className="w-14 h-14 rounded-2xl bg-white border border-gray-100 flex items-center justify-center mb-6 group-hover:bg-red-50 group-hover:border-red-100 transition-colors">
-                  <benefit.icon className="w-7 h-7 text-gray-400 group-hover:text-primary transition-colors" strokeWidth={1.5} />
+              <div key={idx} className="group bg-gray-50 hover:bg-white p-5 sm:p-6 lg:p-8 rounded-3xl border border-transparent hover:border-gray-200 transition-all duration-300 hover:shadow-[0_15px_40px_-15px_rgba(0,0,0,0.1)]">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-2xl bg-white border border-gray-100 flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-red-50 group-hover:border-red-100 transition-colors">
+                  <benefit.icon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-gray-400 group-hover:text-primary transition-colors" strokeWidth={1.5} />
                 </div>
-                <h3 className="font-serif text-xl font-bold text-gray-900 mb-3">Benefit 0{idx + 1}</h3>
-                <p className="font-sans text-gray-600 leading-relaxed">{benefit.text}</p>
+                <h3 className="font-serif text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Benefit 0{idx + 1}</h3>
+                <p className="font-sans text-sm text-gray-600 leading-relaxed">{benefit.text}</p>
               </div>
             ))}
           </div>
@@ -195,8 +195,8 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/20 to-transparent"></div>
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Stay Connected</h2>
-            <p className="font-sans text-gray-400 text-lg mb-8 max-w-xl leading-relaxed">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4 sm:mb-6">Stay Connected</h2>
+            <p className="font-sans text-gray-400 text-sm sm:text-base lg:text-lg mb-5 sm:mb-8 max-w-xl leading-relaxed">
               Join our mailing list to receive the latest updates, newsletters, and announcements directly to your inbox.
             </p>
             <a href="mailto:isls@isls-society.org" className="group inline-flex items-center font-sans font-medium hover:text-white text-gray-300 transition-colors bg-white/5 px-6 py-3 rounded-full border border-white/10 hover:bg-white/10">
@@ -254,7 +254,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-200 py-20">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 flex flex-col lg:flex-row justify-between items-start border-b border-gray-100 pb-16 mb-8">
           <div className="mb-12 lg:mb-0 max-w-sm">
-            <h2 className="text-primary font-serif text-4xl mb-3 font-bold">ISLS</h2>
+            <h2 className="text-primary font-serif text-2xl sm:text-3xl lg:text-4xl mb-3 font-bold">ISLS</h2>
             <p className="text-xs font-sans font-bold tracking-[0.2em] uppercase mb-8 text-gray-400">International Society of Liver Surgeons</p>
             <div className="flex flex-col gap-3 font-sans text-sm text-gray-500 leading-relaxed">
               <p>7th Floor, 22 Teheran-ro 7-gil, Gangnam-gu, Seoul, Korea</p>

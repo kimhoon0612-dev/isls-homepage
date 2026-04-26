@@ -35,13 +35,13 @@ export default function SubLayout({ title, menuTitle, children, menuItems, curre
     <div className="flex flex-col w-full bg-[#fcfcfc]">
       {/* Subpage Header Banner */}
       <section
-        className="relative w-full h-[220px] sm:h-[300px] flex items-center justify-center overflow-hidden bg-primary-dark bg-cover bg-center"
+        className="relative w-full h-[140px] sm:h-[200px] md:h-[260px] flex items-center justify-center overflow-hidden bg-primary-dark bg-cover bg-center"
         style={{ backgroundImage: `url('${headerImageUrl}')` }}
       >
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
         <div className="relative z-10 text-center px-4">
-          <p className="text-xs font-sans font-bold tracking-[0.3em] uppercase text-white/60 mb-3">ISLS</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white tracking-wide">
+          <p className="text-xs font-sans font-bold tracking-[0.3em] uppercase text-white/60 mb-2 sm:mb-3">ISLS</p>
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-white tracking-wide">
             {title}
           </h1>
         </div>
