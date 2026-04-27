@@ -229,7 +229,7 @@ export default function Home() {
           </div>
           
           {/* Sponsor Logos Grid */}
-          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-60 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0">
+          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-80 md:opacity-60 md:hover:opacity-100 transition-opacity duration-500 md:grayscale md:hover:grayscale-0">
             {sponsorsData.map((sponsor, idx) => (
               <Link 
                 href={sponsor.href !== "#" && sponsor.href !== "javascript:void(0);" ? sponsor.href : "#"} 
